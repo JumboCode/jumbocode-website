@@ -9,7 +9,7 @@ Team Members:
 * David Massart
 * Jenna Fleischer
 * Monique Dubois
-* Naoki Okada
+* Naoki Okada (Class of 2021)
 * Noah Adler
 * Peter Lam
 * Rachel Liu
