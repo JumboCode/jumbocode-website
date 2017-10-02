@@ -1,0 +1,257 @@
+/* Global Default Font - ROBOTO */
+/* => From Google Fonts CDN     */
+
+/* Code Pro Font */
+@font-face {
+    font-family: CodeProBold;
+    src: url("bold.otf");
+}
+@font-face {
+    font-family: CodeProLight;
+    src: url("light.otf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #f1c40f;
+}
+
+li > a {
+  color: #000;
+}
+
+li > a:hover {
+  color: #000;
+}
+/* Fonts */
+.logo-font {
+  font-family: CodeProLight;
+  font-size: 36px;
+  letter-spacing: 10px;
+  color: #000;
+  margin-top: 16px;
+}
+
+.logo-font b {
+  font-family: CodeProBold;
+  color: #E54160;
+}
+
+.body-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.small-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+/* Text Block Formatting */
+
+.double-spaced {
+  line-height: 1.75;
+}
+
+.row-content {
+  background-color: #ffffff !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row-emphasis {
+  background-color: #eeeeee !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.no-pad {
+  padding-top: 0px;
+}
+
+.team-pane {
+  text-align: center;
+  padding: 10px;
+}
+
+.pane {
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+/* Bootstrap Element Customization */
+/* => These overwrite default bootstrap css */
+
+.container {
+  max-width: 1000px;
+}
+
+.container-fluid {
+  max-width: 1500px;
+}
+
+.jumbotron {
+  color: #ffffff;
+  background-color: transparent;
+  min-height: 500px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Bootstrap Navbar CSS */
+
+nav {
+  max-width: 100%;
+}
+
+.nav > li > a {
+  margin-top: 10px;
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  transition: background .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out;
+  -webkit-transition: background .2s ease-in-out;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+#nav > ul > li > a {
+  opacity: 1;
+  border: 5px solid transparent;
+  margin: 5px;
+  color: #000;
+}
+
+#nav > ul > li > a:hover {
+  opacity: 1;
+  border: 5px solid transparent;
+  background: rgba(0, 0, 0, .2);
+  color: #000;
+  transition: background .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out;
+  -webkit-transition: background .2s ease-in-out;
+}
+
+#nav > ul > li > a.active {
+  color: #000;
+  border: 5px solid transparent;
+  background: rgba(0, 0, 0, .2);
+  color: #000;
+}
+/* Custom Image CSS */
+
+img {
+  max-width: 100%;
+}
+
+#bg {
+  max-width: 100%;
+  background: url(../img/bg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* Twitter CSS */
+
+.twitter-timeline {
+  width: 100%;
+  height: 300px;
+}
+
+#twitter {
+  margin-top: 20px;
+}
+/* Other */
+
+#join-form {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  height: 1000px;
+}
+
+.alert-custom {
+  border: none;
+  color: #fff;
+  background-color: #E54160;
+  line-height: 30px;
+}
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+  .logo-font {
+    font-size: 36px;
+  }
+  .body-font {
+    font-size: 16px;
+  }
+  .small-font {
+    font-size: 16px;
+  }
+  .logo-font {
+    margin-left: 30px;
+  }
+  .jumbotron {
+    padding-top: 100px;
+    min-height: 300px;
+  }
+}
+
+.well {
+  background-color: #eeeeee;
+  opacity: 1.0;
+  border: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .jumbotron {
+    padding-top: 100px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    padding-top: 150px;
+    min-height: 600px;
+  }
+}
+
+.emphasis-list {
+  list-style: none;
+  font-size: 16px;
+  line-height: 2;
+}
+
+#try-again {
+  display: none;
+}
+
+#redirect {
+  display: none;
+}
+
+.navbar-default {
+  top: 0;
+  border-width: 0 0 1px;
+}

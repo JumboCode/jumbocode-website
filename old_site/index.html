@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>JumboCode</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type='text/css' href="assets/styles/custom.css" />
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="assets/scripts/stellarjs/stellar.min.js"></script>
+
+  <script>
+    function setWhiteBackground() {
+      $('.nav > li > a').css('color', '#000');
+      $('.logo-font > b').css('color', '#E54160');
+      $('.nav > li > a').css('border', '5px solid transparent');
+      $('.nav > li > a.active').css('background', 'rgba(0, 0, 0, .2)');
+      $('.navbar .logo-font').css('color', '#000');
+      $('.navbar').css('background-color', '#f8f8f8');
+      $('.navbar').css('border-color', '#e7e7e7');
+    }
+
+    function setClearBackground() {
+      $('.nav > li > a').css('color', '#fff');
+      $('.logo-font > b').css('color', '#fff');
+      $('.nav > li > a.active').css('border', '5px solid #fff');
+      $('.nav > li > a.active').css('background', 'none');
+      $('.navbar .logo-font').css('color', '#fff');
+      $('.navbar').css('background-color', 'transparent');
+      $('.navbar').css('border-color', 'transparent');
+    }
+
+    $(document).ready(function () {
+      if ($(window).width() >= 768) {
+        $('body').stellar({
+          horizontalScrolling: false
+        });
+      }
+    });
+
+    $(document).ready(function () {
+      if ($(window).width() >= 768) {
+        setClearBackground();
+        $(document).on('scroll', function () {
+          if ($(document).scrollTop() >= 100) {
+            setWhiteBackground();
+          } else {
+            setClearBackground();
+          }
+        });
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <div class="row">
+    <div id="bg" data-stellar-background-ratio="0.1" data-stellar-vertical-offset="1500">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h3 class="nav-brand logo-font">Jumbo<b>Code</b></h3>
+          </div>
+          <div class="collapse navbar-collapse" id="nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="active" href="#">Home</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="projects.html">Projects</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+              <li>
+                <a href="join.html">Join</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+      <div class="container">
+        <div class="jumbotron">
+          <h1 class="head-font"> Philanthropy, meet the future. </h1>
+          <h2 class="head-font"> We want to help your organization find digital solutions for your most pressing problems.
+           Let us develop the tools to help you raise awareness, stay connected,
+           improve your workflow, and achieve your goals. </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-content">
+    <div class="container">
+    <!-- <div class="alert alert-custom" role="alert">
+        <p class="body-font"><i class="fa fa-exclamation-circle fa-fw"></i><strong> Attention Tufts students!</strong>
+        <br> Are you interested in joining a project for the Fall 2016 semester? Come to our Pitch Night event to learn more about the awesome opportunities we have in store! Check out the Facebook event <a href="https://www.facebook.com/events/335876303424309/">here</a>.</p></div>-->
+      <div class="page-header">
+        <h3>What we do</h3>
+      </div>
+      <p class="body-font double-spaced">Our mission is to develop customized technology and software for nonprofit organizations. Let us know what we can build for you <a href="contact.html">on our contact page</a>.</p>
+    </div>
+  </div>
+  <div class="row-emphasis">
+    <div class="container-fluid">
+      <h3 class="head-font text-center"> Our services </h3>
+      <br>
+      <br>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="pane">
+          <img src="assets/img/mobile.jpg" class="img-circle service-img" alt="mobile">
+          <h3>App Development</h3>
+          <p>
+            Mobile apps for iOS or Android devices.
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="pane">
+          <img src="assets/img/web.jpg" class="img-circle service-img" alt="web">
+          <h3>Web Development</h3>
+          <p>
+            Anything from stylish, responsive web pages to modern web apps.
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="pane">
+          <img src="assets/img/software.jpg" class="img-circle service-img" alt="software">
+          <h3>Software Solutions</h3>
+          <p>
+            The tech you need to improve your productivity and increase your efficiency.
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="pane">
+          <img src="assets/img/marketing.jpg" class="img-circle service-img" alt="marketing">
+          <h3>Digital Marketing</h3>
+          <p>
+            Communicate more effectively, increase your outreach and refine your designs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-content no-pad">
+    <div class="container">
+      <div class="page-header">
+        <h3 class="head-font">About Us</h3>
+      </div>
+      <p class="body-font double-spaced"> We are a collective of <strong>computer scientists, engineers, designers, and entrepreneurs</strong> from Tufts University. JumboCode members have pledged to lend their individual skill sets and expertise to develop awesome applications for clients. By working with real-world organizations, our members have valuable opportunities to apply their technical skills to solve real problems.</p>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="row">
+          <h3 class="logo-font text-center">Jumbo<b>Code</b></h3>
+        </div>
+        <br />
+        <div class="row text-center">
+          <a href="https://twitter.com/0xjumbo" style="color:#55acee">
+            <span class="fa-stack fa-2x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+          </a>
+          <a href="https://www.facebook.com/JumboCode/" style="color:#3b5998">
+            <span class="fa-stack fa-2x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+        </span>
+          </a>
+          <a href="http://instagram.com" style="color:#3f729b">
+            <span class="fa-stack fa-2x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+        </span>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6" id="twitter">
+        <div class="col-xs-1 col-sm-1 col-md-1">
+        </div>
+        <div class="col-xs-10 col-sm-10 col-md-10">
+          <a class="twitter-timeline" href="https://twitter.com/0xjumbo" data-widget-id="624304506361135106">Tweets by @0xjumbo</a>
+          <script>
+            ! function (d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? 'http' : 'https';
+              if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+            }(document, "script", "twitter-wjs");
+          </script>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-66024902-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+
+</html>
