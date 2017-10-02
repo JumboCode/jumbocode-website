@@ -13,5 +13,5 @@ Team Members:
 * Noah Adler
 * Peter Lam
 * Rachel Liu
-* Olivia (Khaliun) Narangerel
+* Olivia (Khaliun) Narangerel - Class of 2020
 * Matthew Langen
