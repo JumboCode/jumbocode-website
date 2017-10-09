@@ -5,11 +5,11 @@ The official repo for the JumboCode website (and project).
 Project Lead: Olivia MacDougal
 
 Team Members: 
-* Alice Dempsey
+* Alice Dempsey - hey y'all
 * David Massart
 * Jenna Fleischer
 * Monique Dubois
-* Naoki Okada (Class of 2021)
+* Naoki Okada
 * Noah Adler
 * Peter Lam
 * Rachel Liu
