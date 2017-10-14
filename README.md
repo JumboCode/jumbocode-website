@@ -7,7 +7,7 @@ Project Lead: Olivia MacDougal
 Team Members: 
 * Alice Dempsey
 * David Massart
-* Jenna Fleischer - it me
+* Jenna Fleischer
 * Monique Dubois
 * Naoki Okada
 * Noah Adler
