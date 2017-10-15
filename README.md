@@ -5,7 +5,7 @@ The official repo for the JumboCode website (and project).
 Project Lead: Olivia MacDougal
 
 Team Members: 
-* Alice Dempsey - hey y'all
+* Alice Dempsey
 * David Massart
 * Jenna Fleischer
 * Monique Dubois
