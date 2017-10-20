@@ -1,9 +1,9 @@
-/*@font-face {font-family: "Liberation Sans"; src: url("/assets/fonts/LiberationSans-Bold.ttf");}*/
 h1, 
 h2,
 h3,
 p {
 	font-family: Helvetica Neue;
+	color: white;
 }
 
 .seafoam {
@@ -68,11 +68,28 @@ a {
 }
 .block-quote {
 	/*border: 1px solid red;*/
-	font-size: 3em;
+	font-size: 3rem;
 	margin-top: 15vh;
-	margin-right: 15vw;
-	margin-left: 8vw;
+	/* margin-right: 15vw; */
+	/* margin-left: 8vw; */
 	color: white;
+}
+
+.tag-line {
+	display: flex;
+	margin-left: 9vw;
+}
+
+.jc {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.address {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 3vw;
+	margin-bottom: 2vh;
 }
 
 .green {
@@ -95,8 +112,8 @@ a {
 .explain-left {
 	border-left: 10px solid;
 	border-left-color: #64DDBB;
-	margin-right: 5vw;
-	padding-left: 3vw;
+	/* margin-right: 5vw;
+	padding-left: 3vw; */
 }
 
 .explain-title {
@@ -168,6 +185,7 @@ a {
 	position: absolute;
 }
 
-/*.small-text {
-	font-size: 22vh;
-}*/
+.small-text {
+	font-size: 5rem;
+	font-weight: lighter;
+}
