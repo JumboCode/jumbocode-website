@@ -5,6 +5,39 @@ p {
 	font-family: Helvetica Neue;
 }
 
+.sections {
+	font-family: Helvetica Neue;
+	font-color: white;
+}
+
+.tag_line h2 {
+	font-size: 35px;
+}
+
+.tag_line p {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.tag_line h1 {
+	font-size: 55px;
+	font-weight: 800;
+}
+
+.mission_statement {
+	font-color: black;
+	font-size: 30px;
+	font-weight: 800;
+	background-color: #64DDBB;
+	padding: 50px 80px;
+}
+
+.our_services {
+	font-color: white;
+	font-size: 55px;
+	font-weight: 800;
+}
+
 .seafoam {
 	color: #64DDBB;
 }
