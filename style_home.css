@@ -1,7 +1,6 @@
-h1, 
-h2,
-h3,
-p {
+/* edit to only have home page specific items in CSS */
+
+h1, h2, h3, p {
 	font-family: Helvetica Neue;
 	color: white;
 }
@@ -46,7 +45,7 @@ a:hover, a:active {
 }
 
 a {
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: bold;
 	padding-right: 6vw;
 }
