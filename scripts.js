@@ -10,18 +10,5 @@ $(document).ready(function() {
 		}, 200)
 	});
 
-	$('.img-overlay').hover(function() {
-		$(this).fadeTo(200, 1)
-	}, function() {
-		$(this).fadeTo(200, 0);
-	});
-
-	$('.img-overlay').hover(function() {
-		$(this).fadeTo(200, 1)
-	}, function() {
-		$(this).fadeTo(200, 0);
-	});
-	
-	$('.img-circle').css("top", "+=50")
 	
 });
