@@ -9,7 +9,90 @@ p {
 	color: #64DDBB;
 }
 
-.background {
-	color: #2D2D2D;
+html, body {
+	background-color: #2d2d2d;
+	font-family: 'Helvetica Neue', sans-serif;
+    margin-left: 50px;
+	color: white;
 }
 
+h1 {
+    font-size: 300%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: right;
+}
+
+li.logo {
+	float: left;
+	margin-left: 6vw;
+	font-size: 4vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    color: #64DDBB;
+}
+
+.overview {
+    background-image: url("students.png");
+}
+
+.description {
+    width: 650px;
+    height: 250px;
+ 
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+
+a {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	padding-right: 6vw;
+}
+
+.facebook {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
