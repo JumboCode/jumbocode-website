@@ -1,0 +1,190 @@
+/* edit to only have home page specific items in CSS */
+
+h1, h2, h3, p {
+	font-family: Helvetica Neue;
+	color: white;
+}
+
+.seafoam {
+	color: #64DDBB;
+}
+
+.background {
+	color: #2D2D2D;
+}
+
+html, body {
+	background-color: #2d2d2d;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: right;
+}
+
+.logo {
+	float: left;
+	margin-left: 6vw;
+	font-size: 4vh;
+	display: flex;
+	justify-content: flex-start;
+}
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+a {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	padding-right: 6vw;
+}
+
+.right-navigation {
+	overflow: auto;
+	margin-top: 6vh;
+	font-size: 3vh;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.block-quote h1 {
+	/*border: red 1px solid;*/
+	margin-left: 2vw;
+	word-wrap: break-word;
+	/*margin-right: 20vw;*/
+	font-size: 2.5em;
+}
+.block-quote {
+	/*border: 1px solid red;*/
+	font-size: 3rem;
+	margin-top: 15vh;
+	/* margin-right: 15vw; */
+	/* margin-left: 8vw; */
+	color: white;
+}
+
+.tag-line {
+	display: flex;
+	margin-left: 9vw;
+}
+
+.jc {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.address {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 3vw;
+	margin-bottom: 2vh;
+}
+
+.green {
+	color: #64DDBB;
+}
+
+.paragraphs {
+	margin-top: 6vh;
+	margin-left: 9.5vw;
+	color: white;
+}
+
+.explain-b {
+	border-right: 10px solid;
+	border-right-color: #64DDBB;
+	padding-right: 5vw;
+	text-align: left;
+}
+
+.explain-left {
+	border-left: 10px solid;
+	border-left-color: #64DDBB;
+	/* margin-right: 5vw;
+	padding-left: 3vw; */
+}
+
+.explain-title {
+	font-weight: bold;
+	font-size: 4em;
+	width: 20vw;
+}
+
+.exec-board {
+	margin-top:12vh;
+	margin-left: 10vw;
+}
+.sm-space {
+	height: 8vh;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.title {
+	font-size: 5em;
+	color: white;
+}
+#img1 {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 1100px;
+	left: 100px;
+}
+
+.overlay-text-lg {
+	/*border: 1px solid red;*/
+	color: white;
+	margin-left: 1.5vw;
+	margin-top: 7vw;
+	text-align: center;
+	font-size:3em;
+	width: 20vw;
+}
+
+.overlay-text-sm {
+	/*border: 1px red solid;*/
+	color: white;
+	margin-left: 3vw;
+	margin-top: 4.5vw;
+	text-align: center;
+	font-size:2em;
+	width: 10vw;
+}
+.position-text {
+	color: white;
+	font-style: italic;
+	font-size: 1.5em;
+	margin-left: 8vw;
+}
+.position-text-sm {
+	color: white;
+	font-style: italic;
+	font-size: 1.25em;
+	margin-left: 3.25vw;
+	/*border: 1px red solid;*/
+}
+
+.img-overlay {
+	background-color: #64DDBB;
+	opacity: 0;
+	position: absolute;
+}
+
+.small-text {
+	font-size: 5rem;
+	font-weight: lighter;
+}
