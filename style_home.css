@@ -87,6 +87,8 @@ a {
 .address {
 	display: flex;
 	justify-content: flex-end;
+	font-size: 2rem; /*not exactly sure which unit to use*/
+	font-weight: lighter;
 	margin-right: 3vw;
 	margin-bottom: 2vh;
 }
@@ -99,6 +101,26 @@ a {
 	margin-top: 6vh;
 	margin-left: 9.5vw;
 	color: white;
+}
+
+.mission_statement {
+	display: flex;
+	justify-content: center;
+	font-size: 2.5rem; /*same here. what unit? */
+	font-weight: bold;
+	color: black; /*this isn't working for me... what am I doing wrong*/
+	background-color: #64DDBB;
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+}
+
+.link_to_contact {
+	color: white;
+	text-decoration: underline;
+}
+
+.green {
+	color: #64DDBB;
 }
 
 .explain-b {
