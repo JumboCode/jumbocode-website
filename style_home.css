@@ -1,4 +1,5 @@
 /* edit to only have home page specific items in CSS */
+/* font and logo size need to be pixals*/
 
 h1, h2, h3, p {
 	font-family: Helvetica Neue;
@@ -42,6 +43,7 @@ a:link, a:visited {
 
 a:hover, a:active {
 	text-decoration: none;
+	color: #64DDBB;
 }
 
 a {
