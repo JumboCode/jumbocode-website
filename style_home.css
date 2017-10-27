@@ -1,27 +1,33 @@
 /* edit to only have home page specific items in CSS */
 /* font and logo size need to be pixals*/
 
-h1, h2, h3, p {
-	font-family: Helvetica Neue;
-	color: white;
+.white {
+	color: #FFFFFF;
 }
 
 .seafoam {
 	color: #64DDBB;
 }
 
-/*.background {
-	color: #2D2D2D;
-}*/
+/* h1, h2, h3, p {
+	font-family: Helvetica Neue;
+	color: white;
+} */
 
 html, body {
-	background-color: #2d2d2d;
+	background-color: #2D2D2D;
+	font-family: Helvetica Neue, sans-serif;
+	color: white;
+}
+
+p {
+
 }
 
 ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	/* margin: 0px;
+	padding: 0px; */
 }
 
 li {
@@ -29,13 +35,6 @@ li {
 	float: right;
 }
 
-.logo {
-	float: left;
-	margin-left: 6vw;
-	font-size: 4vh;
-	display: flex;
-	justify-content: flex-start;
-}
 a:link, a:visited {
 	color: white;
 	text-decoration: none;
@@ -47,130 +46,79 @@ a:hover, a:active {
 }
 
 a {
-	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.logo {
+	overflow: auto;
+	display: flex;
+	justify-content: flex-start;
+	float: left;
+	margin-left: 20px;
+	border: 1px solid blue;
+}
+
+.navigation {
+	/* overflow: auto; */
+	margin-top: 10px; /* 84px */
+	font-size: 34px;
+	letter-spacing: 0;
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid red;
+}
+
+.navigation a {
 	padding-right: 6vw;
 }
 
-.right-navigation {
-	overflow: auto;
-	margin-top: 6vh; /*fix this to pixals??*/
+.title {
 	display: flex;
-	justify-content: flex-end;
-	font-family: HelveticaNeue-Bold;
-	font-size: 24px;
-	color: #FFFFFF;
+	justify-content: center;
+	font-size: 144px;
+	color: #280000;
 	letter-spacing: 0;
-}
-
-.block-quote h1 {
-	/*border: red 1px solid;*/
-	margin-left: 2vw;
-	word-wrap: break-word;
-	/*margin-right: 20vw;*/
-	font-size: 2.5em;
-}
-.block-quote {
-	/*border: 1px solid red;*/
-	font-size: 3rem;
-	/*margin-top: 15vh;*/
-	/* margin-right: 15vw; */
-	/* margin-left: 8vw; */
-	color: white;
+	line-height: 144px;
+	border: 1px solid green;
+	/* word-wrap: break-word; */
 }
 
 .tag-line {
 	display: flex;
 	justify-content: center;
-	font-family: HelveticaNeue;
 	font-size: 36px;
 	color: #FFFFFF;
 	letter-spacing: 0;
+	border: 1px solid yellow;
+	/* margin-left: 9vw; */
 }
 
 .address {
 	display: flex;
 	justify-content: flex-start;
-	font-family: HelveticaNeue;
+	float: left;
 	font-size: 24px;
-	color: #FFFFFF;
-	letter-spacing: 0;
 	font-weight: lighter;
-	margin-left: 5vw; /*change these??*/ 
-	margin-bottom: 2vh;
+	border: 1px solid red;
+	/* margin-left: 5vw;
+	margin-bottom: 2vh; */
 }
 
-.green {
-	color: #64DDBB;
-}
-
-.paragraphs {
-	margin-top: 6vh;
-	margin-left: 9.5vw;
-	color: white;
-}
-
-.mission_statement {
+.mission {
 	display: flex;
 	justify-content: center;
-	padding-top: 8vh; 
-	padding-bottom: 8vh;
-	font-family: HelveticaNeue-Bold;
 	font-size: 36px;
-	color: #FFFFFF;
-	letter-spacing: 0;
-}
-
-.green {
-	color: #64DDBB;
-}
-
-.explain-b {
-	border-right: 10px solid;
-	border-right-color: #64DDBB;
-	padding-right: 5vw;
-	text-align: left;
-}
-
-.explain-left {
-	border-left: 10px solid;
-	border-left-color: #64DDBB;
-	/* margin-right: 5vw;
-	padding-left: 3vw; */
-}
-
-.title {
-	font-size: 5em;
-	color: white;
-}
-
-.position-text {
-	color: white;
-	font-style: italic;
-	font-size: 1.5em;
-	margin-left: 8vw;
-}
-.position-text-sm {
-	color: white;
-	font-style: italic;
-	font-size: 1.25em;
-	margin-left: 3.25vw;
-	/*border: 1px red solid;*/
-}
-
-.jc {
-	display: flex;
-	justify-content: center;
-	font-family: HelveticaNeue-Bold;
-	font-size: 144px;
-	color: #280000;
-	letter-spacing: 0;
-	line-height: 144px;
+	border: 1px solid blue;
 }
 
 .contact_bar {
 	display: flex;
 	justify-content: center;
+	border: 1px solid red;
 }
 
 .contact_button {
@@ -180,15 +128,19 @@ a {
 	align-self: center;
 	width: 290px;
 	height: 89px;
-	font-family: HelveticaNeue-Bold;
 	font-size: 36px;
 	letter-spacing: 0;
-	background-color: #64DDBB; 
-	color: #2D2D2D; /*It won't change color... again*/
+	background-color: #64DDBB;
+	border: 1px solid yellow;
+}
+
+.contact_button a:hover, a:active {
+	text-decoration: none;
+	color: #2D2D2D;
 }
 
 .parallax {
-	background-image: url("fakebackground.png"); 
+	/* background-image: url("fakebackground.png"); */
 	height: 1000px;
 	background-attachment: fixed;
 	background-position: center;
