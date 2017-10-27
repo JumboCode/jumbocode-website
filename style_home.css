@@ -27,7 +27,7 @@ li {
 }
 
 a:link, a:visited {
-	color: white;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
@@ -131,9 +131,14 @@ img.resize {
 	border: 1px solid yellow;
 }
 
+.contact_button a:link, a:visited {
+	color: #2D2D2D;
+	text-decoration: none;
+}
+
 .contact_button a:hover, a:active {
 	text-decoration: none;
-	color: #2D2D2D;
+	color: #FFFFFF;
 }
 
 .parallax {
