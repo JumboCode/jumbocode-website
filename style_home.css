@@ -9,19 +9,10 @@
 	color: #64DDBB;
 }
 
-/* h1, h2, h3, p {
-	font-family: Helvetica Neue;
-	color: white;
-} */
-
-html, body {
+html, body /* h1, h2, h3, p */ {
 	background-color: #2D2D2D;
 	font-family: Helvetica Neue, sans-serif;
 	color: white;
-}
-
-p {
-
 }
 
 ul {
@@ -53,6 +44,11 @@ a {
 	font-weight: bold;
 }
 
+img.resize {
+  max-width: 69.4px;
+  max-height: 76.1px;
+}
+
 .logo {
 	overflow: auto;
 	display: flex;
@@ -64,11 +60,11 @@ a {
 
 .navigation {
 	/* overflow: auto; */
+	display: flex;
+	justify-content: flex-end;
 	margin-top: 10px; /* 84px */
 	font-size: 34px;
 	letter-spacing: 0;
-	display: flex;
-	justify-content: flex-end;
 	border: 1px solid red;
 }
 
@@ -79,6 +75,7 @@ a {
 .title {
 	display: flex;
 	justify-content: center;
+	margin-top: 10px;
 	font-size: 144px;
 	color: #280000;
 	letter-spacing: 0;
@@ -87,7 +84,7 @@ a {
 	/* word-wrap: break-word; */
 }
 
-.tag-line {
+.tagline {
 	display: flex;
 	justify-content: center;
 	font-size: 36px;
@@ -140,10 +137,18 @@ a {
 }
 
 .parallax {
-	/* background-image: url("fakebackground.png"); */
-	height: 1000px;
+	background-image: url("home_page.jpg");
+	/* opacity: 0.5; */ /* want only the image to be opaque, otherwise can't read all the text */
+	height: 1300px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
 }
