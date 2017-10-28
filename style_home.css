@@ -108,6 +108,7 @@ img.resize {
 .mission {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	font-size: 36px;
 	border: 1px solid blue;
 }
