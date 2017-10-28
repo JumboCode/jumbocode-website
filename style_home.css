@@ -9,6 +9,10 @@
 	color: #64DDBB;
 }
 
+.grey {
+	color: #2D2D2D;
+}
+
 html, body /* h1, h2, h3, p */ {
 	background-color: #2D2D2D;
 	font-family: Helvetica Neue, sans-serif;
