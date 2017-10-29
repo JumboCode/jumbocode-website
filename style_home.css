@@ -139,8 +139,6 @@ img.resize {
 .contact_bar {
 	display: flex;
 	justify-content: center;
-	margin-top: 23px;
-	margin-bottom: 23px;
 	margin-left: 572px;
 	margin-right: 578px;
 }
