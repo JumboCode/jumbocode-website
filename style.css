@@ -1,0 +1,90 @@
+h1, 
+h2,
+h3,
+p {
+	font-family: Helvetica Neue;
+}
+
+html, body {
+	background-color: #2d2d2d;
+	font-family: 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+	color: white;
+}
+
+h1 {
+    font-size: 450%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: right;
+}
+
+a {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	padding-right: 6vw;
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #64DDBB;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    color: #64DDBB;
+}
+
+.overview {
+    height: 250px;
+    line-height: 200%;
+    background-image: url("assets/img/gradient_code.png");
+    background-repeat: no-repeat;
+    background-position: right center; 
+    background-attachment: fixed;
+    background-size: 750px 400px;
+}
+
+.description {
+    width: 650px;
+    height: 200px;
+}
+
+.socialmedida {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
