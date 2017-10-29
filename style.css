@@ -27,12 +27,13 @@ ul {
 li {
 	display: inline;
 	float: right;
+    font-size: 17px;
 }
 
 a {
-	font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 	font-weight: bold;
-	padding-right: 6vw;
+	padding-right: 4vw;
 }
 
 a:link, a:visited {
@@ -83,8 +84,6 @@ a:hover, a:active {
     height: 200px;
 }
 
-.socialmedida {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+a.socialmedia {
+    padding-right: 2vw;
 }
