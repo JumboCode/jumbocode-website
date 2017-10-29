@@ -71,7 +71,6 @@ img.resize {
 	margin-top: 60px;
 	margin-left: 80px;
 	padding: 5px;
-	border: 1px solid blue;
 }
 
 .navigation {
@@ -83,7 +82,6 @@ img.resize {
 	margin-right: 80px;
 	font-size: 34px;
 	letter-spacing: 0;
-	border: 1px solid red;
 }
 
 .navigation a {
@@ -100,7 +98,6 @@ img.resize {
 	color: #280000;
 	letter-spacing: 0;
 	line-height: 144px;
-	border: 1px solid green;
 	/* word-wrap: break-word; */
 }
 
@@ -113,7 +110,6 @@ img.resize {
 	margin-left: 487px;
 	margin-right: 486px;
 	letter-spacing: 0;
-	border: 1px solid yellow;
 }
 
 .address1 {
@@ -126,7 +122,6 @@ img.resize {
 	margin-left: 80px;
 	margin-right: 1145px;
 	letter-spacing: 0;
-	border: 1px solid red;
 	/* padding: 5px; */
 }
 
@@ -139,7 +134,6 @@ img.resize {
 	margin-left: 149px;
 	margin-right: 148px;
 	letter-spacing: 0;
-	border: 1px solid blue;
 }
 
 .contact_bar {
@@ -149,7 +143,6 @@ img.resize {
 	margin-bottom: 23px;
 	margin-left: 572px;
 	margin-right: 578px;
-	border: 1px solid red;
 }
 
 .contact_button {
@@ -161,7 +154,6 @@ img.resize {
 	height: 89px;
 	letter-spacing: 0;
 	background-color: #64DDBB;
-	border: 1px solid yellow;
 }
 
 .contact_button a:link, a:visited {
@@ -182,7 +174,6 @@ img.resize {
 	margin-top: 283px;
 	margin-left: 80px;
 	margin-right: 1145px;
-	border: 1px solid red;
 	/* padding: 5px; */
 }
 
