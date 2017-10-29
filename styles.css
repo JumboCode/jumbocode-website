@@ -39,6 +39,136 @@ a {
 	padding-right: 6vw;
 }
 
+.Exectext {
+	font-size: 40px;
+	padding-top: 40px;
+}
+
+.one {
+	padding-bottom: 50px;
+	display: block;
+	
+
+}
+
+.overlay {
+	visibility: hidden;
+        background-color: #64DDBB;
+	position: absolute;
+	width: 400px;
+	height: 350px;
+	top: 1084px;
+	opacity: 0.7;
+}
+
+
+.image1:hover .overlay {
+	visibility: visible;
+}
+
+.image1:hover .one {
+	visibility: visible;
+}
+
+.image2:hover .overlay {
+	visibility: visible;
+	left: 501px;
+	top: 1085px;
+}
+.image2:hover .two {
+	visibility: visible;
+}
+
+.image3:hover .overlay {
+        visibility: visible;
+        left: 964px;
+        top: 1085px;
+}
+.image3:hover .three {
+        visibility: visible;
+}
+
+.image4:hover .overlay {
+        visibility: visible;
+        top: 1485px;
+}
+.image4:hover .four {
+        visibility: visible;
+}
+
+.image5:hover .overlay {
+        visibility: visible;
+        left: 501px;
+        top: 1485px;
+}
+.image5:hover .five {
+        visibility: visible;
+}
+
+
+.image6:hover .overlay {
+        visibility: visible;
+        left: 964px;
+        top: 1485px;
+}
+.image6:hover .six {
+        visibility: visible;
+}
+
+.image7:hover .overlay {
+        visibility: visible;
+        left: 155px;
+        top: 1878px;
+}
+.image7:hover .seven {
+        visibility: visible;
+}
+
+.image8:hover .overlay {
+        visibility: visible;
+        left: 848px;
+        top: 1878px;
+}
+.image8:hover .eight {
+        visibility: visible;
+}
+
+.executives {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+.image7 {
+	padding-top: 40px;
+
+}
+
+.image8 {
+	padding-top: 40px;
+
+}
+
+.text {
+	color: white;
+	font-size: 35px;
+	padding: 150px 50px;
+	opacity: 1;
+	line-height: 120%;
+
+}
+
+.text p {
+	font-size: 23px;
+	font-style: italic;
+	line-height: 0%;
+	font-family: 'Helvetica Neue';
+
+}
+
+
 .navigation {
 	overflow: auto;
 	margin-top: 6vh;
@@ -105,5 +235,3 @@ a {
 	font-size: 3em;
 	padding-left: 8%;
 }
-
-
