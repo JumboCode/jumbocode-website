@@ -1,6 +1,3 @@
-/* edit to only have home page specific items in CSS */
-/* font and logo size need to be pixals*/
-
 .white {
 	color: #FFFFFF;
 }
@@ -13,10 +10,23 @@
 	color: #2D2D2D;
 }
 
-html, body /* h1, h2, h3, p */ {
+html, body {
 	background-color: #2D2D2D;
 	font-family: Helvetica Neue, sans-serif;
 	color: white;
+	height: 100%;
+}
+
+h1 {
+	font-size: 144px;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+p {
+	font-size: 24px;
 }
 
 ul {
@@ -49,8 +59,8 @@ a {
 }
 
 img.resize {
-  max-width: 69.4px;
-  max-height: 76.1px;
+	max-width: 69.4px;
+	max-height: 76.1px;
 }
 
 .logo {
@@ -58,29 +68,35 @@ img.resize {
 	display: flex;
 	justify-content: flex-start;
 	float: left;
-	margin-left: 20px;
+	margin-top: 60px;
+	margin-left: 80px;
+	padding: 5px;
 	border: 1px solid blue;
 }
 
 .navigation {
-	/* overflow: auto; */
+	overflow: auto;
 	display: flex;
 	justify-content: flex-end;
-	margin-top: 10px; /* 84px */
+	margin-top: 84px;
+	margin-left: 687.6px;
+	margin-right: 80px;
 	font-size: 34px;
 	letter-spacing: 0;
 	border: 1px solid red;
 }
 
 .navigation a {
-	padding-right: 6vw;
+	padding-right: 60px;
 }
 
 .title {
 	display: flex;
 	justify-content: center;
-	margin-top: 10px;
-	font-size: 144px;
+	margin-top: 306px;
+	margin-bottom: 0px;
+	margin-left: 301px;
+	margin-right: 301px;
 	color: #280000;
 	letter-spacing: 0;
 	line-height: 144px;
@@ -91,35 +107,48 @@ img.resize {
 .tagline {
 	display: flex;
 	justify-content: center;
-	font-size: 36px;
 	color: #FFFFFF;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	margin-left: 487px;
+	margin-right: 486px;
 	letter-spacing: 0;
 	border: 1px solid yellow;
-	/* margin-left: 9vw; */
 }
 
-.address {
+.address1 {
 	display: flex;
 	justify-content: flex-start;
 	float: left;
-	font-size: 24px;
 	font-weight: lighter;
+	margin-top: 289px;
+	margin-bottom: 60px;
+	margin-left: 80px;
+	margin-right: 1145px;
+	letter-spacing: 0;
 	border: 1px solid red;
-	/* margin-left: 5vw;
-	margin-bottom: 2vh; */
+	/* padding: 5px; */
 }
 
 .mission {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	font-size: 36px;
+	margin-top: 1100px;
+	margin-bottom: 50px;
+	margin-left: 149px;
+	margin-right: 148px;
+	letter-spacing: 0;
 	border: 1px solid blue;
 }
 
 .contact_bar {
 	display: flex;
 	justify-content: center;
+	margin-top: 23px;
+	margin-bottom: 23px;
+	margin-left: 572px;
+	margin-right: 578px;
 	border: 1px solid red;
 }
 
@@ -130,7 +159,6 @@ img.resize {
 	align-self: center;
 	width: 290px;
 	height: 89px;
-	font-size: 36px;
 	letter-spacing: 0;
 	background-color: #64DDBB;
 	border: 1px solid yellow;
@@ -146,10 +174,23 @@ img.resize {
 	color: #FFFFFF;
 }
 
+.address2 {
+	display: flex;
+	justify-content: flex-start;
+	float: left;
+	font-weight: lighter;
+	margin-top: 283px;
+	margin-left: 80px;
+	margin-right: 1145px;
+	border: 1px solid red;
+	/* padding: 5px; */
+}
+
 .parallax {
 	background-image: url("home_page.jpg");
-	/* opacity: 0.5; */ /* want only the image to be opaque, otherwise can't read all the text */
-	height: 1300px;
+	/* opacity: 0.5; */
+	/* want only the image to be opaque, otherwise can't read all the text */
+	height: 2600px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -157,8 +198,8 @@ img.resize {
 }
 
 .sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding: 5px;
 }
