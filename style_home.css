@@ -17,6 +17,7 @@ html, body {
 }
 
 .parallax {
+	/* background needs to be semi opaque */
 	/* background-image: url("home_page.jpg"); */
 	height: 200vh;
 	background-attachment: fixed;
