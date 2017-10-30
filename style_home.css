@@ -169,7 +169,7 @@ img.resize {
 }
 
 .parallax {
-	background-image: url("home_page.jpg");
+	/* background-image: url("home_page.jpg"); */
 	/* opacity: 0.5; */
 	/* want only the image to be opaque, otherwise can't read all the text */
 	height: 2650px;
