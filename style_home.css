@@ -100,13 +100,14 @@ a {
 	font-weight: normal;
 }
 
-/* .sticky_bottom {
+.sticky_bottom {
 	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-} */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
 
-.address1 {
+.address {
 	display: flex;
 	justify-content: flex-start;
 	float: left;
@@ -161,14 +162,4 @@ a:link.contact_button, a:visited.contact_button {
 a:hover.contact_button, a:active.contact_button {
 	text-decoration: none;
 	color: #FFFFFF;
-}
-
-.address2 {
-	display: flex;
-	justify-content: flex-start;
-	float: left;
-	font-weight: lighter;
-	margin-top: 27.63671875vh;
-	margin-left: 5.55vw;
-	margin-right: 79.5138vw;
 }
