@@ -1,0 +1,170 @@
+html, body {
+	background-color: #2d2d2d;
+	font-family: 'Helvetica Neue', sans-serif;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: right;
+}
+
+li.logo {
+	width: 10vw;
+	float: left;
+	margin-left: 6vw;
+	font-size: 4vh;
+}
+
+.logo {
+	padding-left: 4%;
+	width: 50px;
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+a {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	padding-right: 6vw;
+}
+
+.navigation {
+	overflow: auto;
+	margin-top: 6vh;
+	font-size: 20px;
+}
+
+.page-content {
+	margin-top: 13vh;
+}
+
+/* Breaks when less than 500px wide  - introduce 
+ * media query?
+ */
+.main-quote h1 {
+	margin-left: 10%;
+	word-wrap: break-word;
+	font-size: 5em;
+	line-height: .7em;
+}
+
+
+.green {
+	color: #64DDBB;
+}
+
+.explanations {
+	margin-top: 6vh;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.flex-grid {
+	/*align-items: center;*/
+	justify-content: center;
+	display: flex;
+}
+
+
+.quote-right {
+	padding-left: 4%;
+	border-left: 8px #64DDBB solid;
+}
+
+.quote-left {
+	padding-right: 4%;
+	border-right: 8px #64DDBB solid;
+}
+
+.explain-p {
+	font-size: 1.25em;
+	padding-top: 2%;
+	width: 75%;
+}
+
+.explain-t {
+	width: 25%;
+}
+
+.title-right {
+	font-size: 3em;
+}
+
+.title-left {
+	font-size: 3em;
+	padding-left: 8%;
+}
+
+.exec-board {
+	margin-top: 5%;
+}
+
+.container {
+
+}
+.col {
+	padding: 2vw;
+}
+
+.round {
+	border-radius: 50%;
+	width: 20vw;
+}
+.overlay {
+
+	position: absolute;
+	margin-top: 0;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+	background-color: #64DDBB;
+	opacity: 0;
+	z-index: 1;
+}
+.overlay-text {
+	margin-top: 15%;
+	margin-left: 20%;
+	width: 14vw;
+	height: 14vw;
+	border: 1px transparent solid;
+}
+.overlay-name {
+	font-size: 2.25vw;
+	/*border: 1px solid red;*/
+	width: 15vw;
+	margin-top: 10%;
+	/*margin-left: 22%;*/
+}
+.overlay-position {
+	margin-top: 0;
+	/*margin-left: 22%;*/
+	font-size: 1.6vw;
+	font-style: italic;
+}
+
+#exec-2 {
+	/*border: 1px solid red;*/
+	margin-left: 13%;
+	margin-top: 20%;
+}
+#exec-4 {
+	margin-top: 5%;
+}
+
+.section-header {
+	font-size: 4em;
+}
