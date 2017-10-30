@@ -61,12 +61,12 @@ li.logo {
 	max-height: 7.421875vh;
 }
 
-a:link, a:visited {
+.navigation a:link, .navigation a:visited {
 	color: white;
 	text-decoration: none;
 }
 
-a:hover, a:active {
+.navigation a:hover, .navigation a:active {
 	text-decoration: none;
 	color: #64DDBB;
 }
@@ -153,13 +153,12 @@ a {
 	background-color: #64DDBB;
 }
 
-/* can't seem to override previous a.[whatever] */
-a:link.contact_button, a:visited.contact_button {
+.contact_button a:link, .contact_button a:visited {
 	color: #2D2D2D;
 	text-decoration: none;
 }
 
-a:hover.contact_button, a:active.contact_button {
+.contact_button a:hover, .contact_button a:active {
 	text-decoration: none;
 	color: #FFFFFF;
 }
