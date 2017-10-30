@@ -72,11 +72,11 @@ a:hover, a:active {
 .overview {
     height: 250px;
     line-height: 200%;
-    background-image: url("assets/img/gradient_code.png");
+    background-image: url("assets/img/Bitmap.png");
     background-repeat: no-repeat;
-    background-position: right center; 
+    background-position: 400px 110px; 
     background-attachment: fixed;
-    background-size: 750px 400px;
+    background-size: 700px 250px;
 }
 
 .description {
