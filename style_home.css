@@ -30,6 +30,7 @@ html, body {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
+	left: 0;
 	padding: 0.48828125vh;
 }
 
