@@ -71,7 +71,6 @@ a {
 }
 
 .flex-grid {
-	/*align-items: center;*/
 	justify-content: center;
 	display: flex;
 }
