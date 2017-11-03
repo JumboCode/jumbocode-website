@@ -1,0 +1,89 @@
+h1, 
+h2,
+h3,
+p {
+	font-family: Helvetica Neue;
+}
+
+html, body {
+	background-color: #2d2d2d;
+	font-family: 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+	color: white;
+}
+
+h1 {
+    font-size: 450%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: right;
+    font-size: 17px;
+}
+
+a {
+    font-family: 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	padding-right: 4vw;
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #64DDBB;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.green {
+    color: #64DDBB;
+}
+
+.overview {
+    height: 250px;
+    line-height: 200%;
+    background-image: url("assets/img/Bitmap.png");
+    background-repeat: no-repeat;
+    background-position: 435px 110px; 
+    background-attachment: fixed;
+    background-size: 700px 250px;
+}
+
+.description {
+    width: 650px;
+    height: 200px;
+}
+
+a.socialmedia {
+    padding-right: 2vw;
+}
