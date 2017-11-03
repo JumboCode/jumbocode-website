@@ -52,9 +52,6 @@ a {
 	margin-top: 13vh;
 }
 
-/* Breaks when less than 500px wide  - introduce 
- * media query?
- */
 .main-quote h1 {
 	margin-left: 10%;
 	word-wrap: break-word;
@@ -74,7 +71,6 @@ a {
 }
 
 .flex-grid {
-	/*align-items: center;*/
 	justify-content: center;
 	display: flex;
 }
@@ -113,9 +109,6 @@ a {
 	margin-top: 5%;
 }
 
-.container {
-
-}
 .col {
 	padding: 2vw;
 }
@@ -125,7 +118,6 @@ a {
 	width: 20vw;
 }
 .overlay {
-
 	position: absolute;
 	margin-top: 0;
 	width: 20vw;
@@ -135,6 +127,7 @@ a {
 	opacity: 0;
 	z-index: 1;
 }
+
 .overlay-text {
 	margin-top: 15%;
 	margin-left: 20%;
@@ -144,20 +137,16 @@ a {
 }
 .overlay-name {
 	font-size: 2.25vw;
-	/*border: 1px solid red;*/
 	width: 15vw;
 	margin-top: 10%;
-	/*margin-left: 22%;*/
 }
 .overlay-position {
 	margin-top: 0;
-	/*margin-left: 22%;*/
 	font-size: 1.6vw;
 	font-style: italic;
 }
 
 #exec-2 {
-	/*border: 1px solid red;*/
 	margin-left: 13%;
 	margin-top: 20%;
 }

@@ -11,11 +11,11 @@ $(document).ready(function() {
 	});
 
 	$('.overlay').hover(function() {
-		$(this).animate({
+		$(this).stop().animate({
 			opacity: 1
 		}, 200);
 	}, function() {
-		$(this).animate({
+		$(this).stop().animate({
 			opacity: 0
 		}, 200)
 	});
