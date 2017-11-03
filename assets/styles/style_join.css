@@ -72,7 +72,7 @@ a:hover, a:active {
 .overview {
     height: 250px;
     line-height: 200%;
-    background-image: url("assets/img/Bitmap.png");
+    background-image: url("../img/code.png");
     background-repeat: no-repeat;
     background-position: 435px 110px; 
     background-attachment: fixed;

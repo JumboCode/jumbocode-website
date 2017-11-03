@@ -1,15 +1,17 @@
-h1, 
-h2,
-h3,
-p {
-	font-family: Helvetica Neue;
+html, body {
+	background-color: #2D2D2D;
+	font-family: 'Helvetica Neue', sans-serif;
+	color: white;
+}
+
+.white {
+	color: #FFFFFF;
 }
 
 .seafoam {
 	color: #64DDBB;
 }
 
-.background {
+.grey {
 	color: #2D2D2D;
 }
-
