@@ -114,7 +114,7 @@ a {
 }
 
 .round {
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	width: 20vw;
 }
 .overlay {
@@ -122,18 +122,21 @@ a {
 	margin-top: 0;
 	width: 20vw;
 	height: 20vw;
-	border-radius: 50%;
 	background-color: #64DDBB;
 	opacity: 0;
 	z-index: 1;
 }
 
 .overlay-text {
-	margin-top: 15%;
-	margin-left: 20%;
+	margin-top: 12%;
+	margin-left: 18%;
 	width: 14vw;
 	height: 14vw;
 	border: 1px transparent solid;
+}
+
+.overlay-text h1{
+	word-wrap: break-word;
 }
 .overlay-name {
 	font-size: 2.25vw;
@@ -144,14 +147,6 @@ a {
 	margin-top: 0;
 	font-size: 1.6vw;
 	font-style: italic;
-}
-
-#exec-2 {
-	margin-left: 13%;
-	margin-top: 20%;
-}
-#exec-4 {
-	margin-top: 5%;
 }
 
 .section-header {
