@@ -17,6 +17,10 @@ ul {
 	font-size: 1.5rem;
 }
 
+.col h1 {
+	font-size: 3rem;
+}
+
 .contact_button {
 	display: flex;
     justify-content: center;
@@ -46,6 +50,29 @@ ul {
     width: 70%;
 }
 
+.explain-t-left {
+	padding-right: 3rem;
+}
+
+.explain-t-right {
+	padding-left: 3rem;
+}
+
+.explain-p {
+	font-size: 1.25em;
+	padding-top: 2%;
+	width: 75%;
+}
+
+.exec-board {
+	margin-top: 5%;
+}
+
+.flex-grid {
+	justify-content: center;
+	display: flex;
+}
+
 .home-nav {
 	background-color: transparent !important;
 }
@@ -57,6 +84,12 @@ ul {
 	margin-bottom: 15rem;
 	font-size: 2.25rem;
 	font-weight: bold;
+}
+
+.join-overview {
+    background-image: url("../img/code.png");
+    background-repeat: no-repeat;
+    background-position: right; 
 }
 
 .logo img {
@@ -100,12 +133,6 @@ ul {
 	color: #64DDBB;
 }
 
-.overview {
-    background-image: url("../img/code.png");
-    background-repeat: no-repeat;
-    background-position: right; 
-}
-
 .overview h1 {
     line-height: 6rem;
     font-size: 5.5rem
@@ -120,16 +147,15 @@ body {
 	background-size: cover;
 }
 
-/*.parallax {
-	/* background needs to be semi opaque 
-	background-image: url("../img/home_page.jpg"); 
-	height: 200vh;
+.quote-right {
+	padding-left: 4%;
+	border-left: 8px #64DDBB solid;
+}
 
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}*/
+.quote-left {
+	padding-right: 4%;
+	border-right: 8px #64DDBB solid;
+}
 
 .seafoam {
     color: #64DDBB;
