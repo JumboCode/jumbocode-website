@@ -1,89 +1,78 @@
-h1, 
-h2,
-h3,
-p {
-	font-family: Helvetica Neue;
-}
-
-html, body {
-	background-color: #2d2d2d;
+body {
+	background-color: #2D2D2D;
 	font-family: 'Helvetica Neue', sans-serif;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 2.5rem 5rem;
 	color: white;
 }
 
-h1 {
-    font-size: 450%;
+.overview h1 {
+    line-height: 6rem;
+    font-size: 5.5rem
 }
 
 ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
 
-li {
-	display: inline;
-	float: right;
-    font-size: 17px;
-}
-
-a {
-    font-family: 'Helvetica Neue', sans-serif;
-	font-weight: bold;
-	padding-right: 4vw;
-}
-
-a:link, a:visited {
-	color: white;
-	text-decoration: none;
-}
-
-a:hover, a:active {
-	color: #64DDBB;
-}
-
-.top {
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    display: flex;
-    justify-content: flex-start;
+.logo img {
+    height: 75px;
+    width: 70px;
 }
 
 .navigation {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #2D2D2D;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.list {
+.nav-links {
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
 
-.green {
+.nav-links li a {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 3.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+	color: #64DDBB;
+}
+
+.seafoam {
     color: #64DDBB;
 }
 
 .overview {
-    height: 250px;
-    line-height: 200%;
     background-image: url("../img/code.png");
     background-repeat: no-repeat;
-    background-position: 435px 110px; 
-    background-attachment: fixed;
-    background-size: 700px 250px;
+    background-position: right; 
 }
 
 .description {
-    width: 650px;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 70%;
 }
 
-a.socialmedia {
-    padding-right: 2vw;
+.social-media {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.social-media img {
+    width: 25px;
+    height: 25px;
 }
