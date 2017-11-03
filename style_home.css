@@ -1,3 +1,9 @@
+html, body {
+	background-color: #2D2D2D;
+	font-family: 'Helvetica Neue', sans-serif;
+	color: white;
+}
+
 .white {
 	color: #FFFFFF;
 }
@@ -10,35 +16,58 @@
 	color: #2D2D2D;
 }
 
-html, body {
-	background-color: #2D2D2D;
-	font-family: Helvetica Neue, sans-serif;
-	color: white;
+.parallax {
+	/* background needs to be semi opaque */
+	/* background-image: url("home_page.jpg"); */
+	height: 200vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-h1 {
-	font-size: 144px;
+.sticky_top {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	left: 0;
+	padding: 0.48828125vh;
 }
 
-h3 {
-	font-size: 36px;
+.navigation {
+	overflow: auto;
+	margin-top: 8.203125vh;
+	font-size: 2.734375vh;
 }
 
-p {
-	font-size: 24px;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 li {
 	display: inline;
 	float: right;
+	padding-right: 6vw;
 }
 
-a:link, a:visited {
-	color: #FFFFFF;
+li.logo {
+	float: left;
+	margin-left: 6vw;
+}
+
+.logo {
+	max-width: 4.7916vw;
+	max-height: 7.421875vh;
+}
+
+.navigation a:link, .navigation a:visited {
+	color: white;
 	text-decoration: none;
 }
 
-a:hover, a:active {
+.navigation a:hover, .navigation a:active {
 	text-decoration: none;
 	color: #64DDBB;
 }
@@ -47,93 +76,70 @@ a {
 	font-weight: bold;
 }
 
-.bold {
-	font-weight: bold;
-}
-
-img.resize {
-	max-width: 69.4px;
-	max-height: 76.1px;
-}
-
-.logo {
-	overflow: auto;
-	display: flex;
-	justify-content: flex-start;
-	float: left;
-	margin-top: 60px;
-	margin-left: 80px;
-	padding: 5px;
-}
-
-.navigation {
-	overflow: auto;
-	display: flex;
-	justify-content: flex-end;
-	margin-top: 84px;
-	margin-left: 687.6px;
-	margin-right: 80px;
-	font-size: 34px;
-	letter-spacing: 0;
-}
-
-.navigation a {
-	padding-right: 60px;
-}
-
 .title {
 	display: flex;
 	justify-content: center;
-	margin-top: 306px;
-	margin-bottom: 0px;
-	margin-left: 301px;
-	margin-right: 301px;
+	margin-top: 27.44140625vh;
+	margin-bottom: 1.46484375vh;
+	margin-left: 20.9027vw;
+	margin-right: 20.9027vw;
 	color: #280000;
 	letter-spacing: 0;
-	line-height: 144px;
-	/* word-wrap: break-word; */
+	font-size: 14.0625vh;
+	font-weight: bold;
+	line-height: 14.0625vh;
 }
 
 .tagline {
 	display: flex;
 	justify-content: center;
 	color: #FFFFFF;
-	margin-top: 15px;
-	margin-bottom: 0px;
-	margin-left: 487px;
-	margin-right: 486px;
+	margin-left: 33.8194vw;
+	margin-right: 33.75vw;
 	letter-spacing: 0;
+	font-size: 3.515625vh;
+	font-weight: normal;
 }
 
-.address1 {
+.sticky_bottom {
+	position: -webkit-sticky;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.address {
 	display: flex;
 	justify-content: flex-start;
 	float: left;
 	font-weight: lighter;
-	margin-top: 289px;
-	margin-bottom: 60px;
-	margin-left: 80px;
-	margin-right: 1145px;
+	margin-top: 28.22265625vh;
+	margin-bottom: 5.859375vh;
+	margin-left: 5.55vw;
+	margin-right: 79.5138vw;
+	font-size: 2.734375vh;
 	letter-spacing: 0;
-	/* padding: 5px; */
 }
 
 .mission {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	margin-top: 1100px;
-	margin-bottom: 50px;
-	margin-left: 149px;
-	margin-right: 148px;
+	/* margin-top: 44.921875vh; */
+	margin-top: 78.921875vh;
+	margin-bottom: 4.8828125vh;
+	margin-left: 10.3472vw;
+	margin-right: 10.27vw;
+	font-size: 3.515625vh;
+	font-weight: bold;
 	letter-spacing: 0;
 }
 
 .contact_bar {
 	display: flex;
 	justify-content: center;
-	margin-left: 572px;
-	margin-right: 578px;
+	margin-left: 39.72vw;
+	margin-right: 40.138vw;
 }
 
 .contact_button {
@@ -141,47 +147,20 @@ img.resize {
 	justify-content: center;
 	align-items: center;
 	align-self: center;
-	width: 290px;
-	height: 89px;
+	text-align: center;
+	width: 20.138vw;
+	height: 8.69140625vh;
 	letter-spacing: 0;
+	font-size: 3.515625vh;
 	background-color: #64DDBB;
 }
 
-.contact_button a:link, a:visited {
+.contact_button a:link, .contact_button a:visited {
 	color: #2D2D2D;
 	text-decoration: none;
 }
 
-.contact_button a:hover, a:active {
+.contact_button a:hover, .contact_button a:active {
 	text-decoration: none;
 	color: #FFFFFF;
-}
-
-.address2 {
-	display: flex;
-	justify-content: flex-start;
-	float: left;
-	font-weight: lighter;
-	margin-top: 283px;
-	margin-left: 80px;
-	margin-right: 1145px;
-	/* padding: 5px; */
-}
-
-.parallax {
-	/* background-image: url("home_page.jpg"); */
-	/* opacity: 0.5; */
-	/* want only the image to be opaque, otherwise can't read all the text */
-	height: 2650px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	padding: 5px;
 }
