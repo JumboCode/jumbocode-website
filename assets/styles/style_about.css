@@ -1,12 +1,13 @@
+
 .round {
 	/*border-radius: 50%;*/
-	width: 20vw;
+	width: 20rem;
 }
 .overlay {
 	position: absolute;
 	margin-top: 0;
-	width: 20vw;
-	height: 20vw;
+	width: 20rem;
+	height: 20rem;
 	background-color: #64DDBB;
 	opacity: 0;
 	z-index: 1;
@@ -15,8 +16,8 @@
 .overlay-text {
 	margin-top: 12%;
 	margin-left: 18%;
-	width: 14vw;
-	height: 14vw;
+	width: 14rem;
+	height: 14rem;
 	border: 1px transparent solid;
 }
 
@@ -24,13 +25,13 @@
 	word-wrap: break-word;
 }
 .overlay-name {
-	font-size: 2.25vw;
-	width: 15vw;
+	font-size: 2.25rem;
+	width: 15rem;
 	margin-top: 10%;
 }
 .overlay-position {
 	margin-top: 0;
-	font-size: 1.6vw;
+	font-size: 1.6rem;
 	font-style: italic;
 }
 
