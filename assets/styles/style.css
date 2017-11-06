@@ -82,6 +82,11 @@ ul {
 	justify-content: center;
 }
 
+.header {
+	margin-top: 10rem;
+	margin-bottom: 45rem;
+}
+
 .home-nav {
 	background-color: transparent !important;
 }
@@ -91,8 +96,8 @@ ul {
 	flex-direction: column;
 	font-size: 2.25rem;
 	font-weight: bold;
-	margin-top: 35rem;
-	margin-bottom: 15rem;
+	margin-top: 20rem;
+	margin-bottom: 20rem;
 }
 
 .join-overview {
@@ -232,5 +237,4 @@ ul {
 	font-weight: bold;
 	font-size: 9rem;
 	justify-content: center;
-    margin-top: 10rem;
 }
