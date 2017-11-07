@@ -303,3 +303,35 @@ textarea::placeholder {
 	font-size: 9rem;
 	justify-content: center;
 }
+
+.organization {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 2rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.client_info {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	flex-basis: 50%;
+}
+
+.information {
+	display: flex;
+	justify-content: center;
+}
+
+.screenshot {
+	display: flex;
+	justify-content: flex-start;
+	flex-basis: 50%;
+
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
