@@ -2,7 +2,7 @@ body {
 	background-color: #2D2D2D;
 	color: white;
 	font-family: 'Helvetica Neue', sans-serif;
-    margin: 2.5rem 5rem;
+    margin: 0rem 5rem;
 }
 
 ul {
@@ -17,6 +17,9 @@ ul {
 	margin: 2.5rem 5rem;
 }
 
+.closebtn {
+	display: none;
+}
 .col h1 {
 	font-size: 3rem;
 }
@@ -99,6 +102,7 @@ ul {
 	margin-top: 10rem;
 	margin-bottom: 45rem;
 }
+
 
 .home-nav {
 	background-color: transparent !important;
@@ -184,8 +188,12 @@ textarea::placeholder {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
+.navigation i {
+	display: none;
+}
 .nav-links {
 	align-items: center;
     display: flex;
@@ -302,4 +310,96 @@ textarea::placeholder {
 	font-weight: bold;
 	font-size: 9rem;
 	justify-content: center;
+}
+
+@media (max-width: 500px) {
+	.overview h1 {
+		width: 35rem;
+		font-size: 4rem;
+    	line-height: 5rem;
+	}
+	
+	.flex-grid {
+		/*border: 1px solid red;*/
+		width: 35rem;
+		flex-direction: column;
+	}
+
+	.explain-t-left h1{
+		/*border: 1px solid red;*/
+		font-size: 2.75rem;
+		margin-bottom: 0;
+	}
+
+	.explain-p {
+		margin-top: 0rem;
+		width: 35rem;
+		font-size: 1.5rem;
+	}
+
+
+	.quote-right {
+		padding-top: 1.5rem;
+		border-left: none;
+		border-right: none;
+		border-top: 8px #64DDBB solid;
+		width: 35rem;
+		padding-left: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.explain-t-right {
+		padding-top: 1.5rem;
+		padding-bottom: 1.25rem;
+		/*border: 1px solid red;*/
+
+	}
+
+	.explain-t-right h1 {
+		padding: 0;
+		margin: 0;
+		margin-left: -3rem;
+		padding-left: -1rem;
+		font-size: 2.75rem;
+	}
+	.quote-left {
+		border-top: 8px #64DDBB solid;
+		border-right: none;
+	}
+	#bottom-bio {
+		flex-direction: column-reverse;
+	}
+
+	.section-header {
+		width: 35rem;
+		font-size: 3rem;
+	}
+	.container {
+		justify-content: space-between;
+		width: 35rem;
+	}
+
+	.card {
+		padding: 0rem 0rem 3rem 0rem;
+	}
+	.square, .overlay {
+		width: 16rem;
+		height: 16rem;
+	}
+
+	.navigation {
+		width: 35rem;
+	}
+	.navigation i {
+		float: right;
+		margin-right: 4rem;
+		font-size: 5rem;
+		display: block;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
 }
