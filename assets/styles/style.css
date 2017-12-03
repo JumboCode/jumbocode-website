@@ -1,8 +1,8 @@
 body {
 	background-color: #2D2D2D;
 	color: white;
-	font-family: 'Helvetica Neue', sans-serif;
-    margin: 0rem 5rem;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 2.5rem 5rem;
 }
 
 ul {
