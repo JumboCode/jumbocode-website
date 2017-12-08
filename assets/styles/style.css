@@ -350,3 +350,10 @@ textarea::placeholder {
     background-attachment: fixed;
     background-size: 1300px 850px;
 }
+
+.baa {
+    background-image: url("../img/specific_project.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1300px 850px;
+}
