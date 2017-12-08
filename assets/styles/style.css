@@ -339,3 +339,10 @@ textarea::placeholder {
 	display: flex;
 	flex-direction: row;
 }
+
+.baa {
+    background-image: url("../img/specific_project.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1300px 850px;
+}
