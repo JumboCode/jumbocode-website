@@ -308,11 +308,14 @@ textarea::placeholder {
 	display: flex;
 	justify-content: flex-start;
 	font-size: 2rem;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin: 0px;
 }
 
-.client_info {
+.organization h1 {
+	margin: 4px;
+}
+
+.client-info {
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: column;
@@ -338,6 +341,7 @@ textarea::placeholder {
 .content {
 	display: flex;
 	flex-direction: row;
+	margin-top: 175px;
 }
 
 .baa {
