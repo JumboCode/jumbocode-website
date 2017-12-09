@@ -8,7 +8,7 @@ body {
 ul {
 	list-style-type: none;
 }
-
+ 
 .address {
 	display: flex;
 	float: left;
@@ -312,7 +312,78 @@ textarea::placeholder {
 	justify-content: center;
 }
 
+
+@media (max-width: 370px) {
+	#pages {
+		margin-top: -65rem;
+		border: 1px solid red;
+	}
+}
 @media (max-width: 500px) {
+
+	.navigation {
+		display: block;
+		height: 100px;
+		width: 36rem;
+		background-color: #2D2D2D;
+	}
+
+	/* Class to toggle on .navigation */
+	
+	.open-nav {
+		z-index: 1;
+		height: 200vh;
+	}
+
+	.open-nav .logo {
+		display: none;
+	}
+
+	.open-nav .nav-links a {
+		padding: 0;
+		font-size: 4.5rem;
+	}
+
+	/* Styles for menu links once opened */
+
+	.nav-top {
+		display: block;
+		background-color: #2D2D2D;
+		width: 35rem;
+		height: 100%;
+		width: 100%;
+	}
+
+	.navigation .logo {
+		display: inline-block;
+		float: left;
+	}
+	.navigation i {
+		display: inline-block;
+		float: right;
+		margin-right: 2rem;
+		font-size: 5rem;
+		width: 100px;
+	}
+
+	.links {
+		margin-top: -78rem;
+		height: 20vh;
+	}
+
+	.nav-links {
+		display: block;
+		padding: 0;
+	}
+
+	.nav-links li {
+		height: 8rem;
+	}
+
+	
+
+	/* Adjust content on the rest of the page */
+
 	.overview h1 {
 		width: 35rem;
 		font-size: 4rem;
@@ -320,7 +391,7 @@ textarea::placeholder {
 	}
 	
 	.flex-grid {
-		/*border: 1px solid red;*/
+		
 		width: 35rem;
 		flex-direction: column;
 	}
@@ -388,18 +459,6 @@ textarea::placeholder {
 		height: 16rem;
 	}
 
-	.navigation {
-		width: 35rem;
-	}
-	.navigation i {
-		float: right;
-		margin-right: 4rem;
-		font-size: 5rem;
-		display: block;
-	}
-
-	.nav-links {
-		display: none;
-	}
+	
 
 }
