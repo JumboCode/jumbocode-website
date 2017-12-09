@@ -2,7 +2,15 @@ body {
 	background-color: #2D2D2D;
 	color: white;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 2.5rem 5rem;
+  	
+}
+
+
+body .navigation {
+	margin: 0 5rem;
+}
+body .page-content {
+	margin: 2.5rem 5rem;
 }
 
 ul {
@@ -179,6 +187,7 @@ textarea::placeholder {
 }
 
 .navigation {
+	border-top: 0;
 	background-color: #2D2D2D;
     display: flex;
     justify-content: space-between;
@@ -329,7 +338,7 @@ textarea::placeholder {
 	}
 
 	/* Class to toggle on .navigation */
-	
+
 	.open-nav {
 		z-index: 1;
 		height: 200vh;
