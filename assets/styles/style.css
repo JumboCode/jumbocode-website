@@ -232,9 +232,16 @@ textarea::placeholder {
 }
 
 .overlay-name {
+	color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration: none;
 	font-size: 2.25rem;
 	margin-top: 10%;
 	width: 15rem;
+}
+
+.overlay-name a:hover {
+	color: #64DDBB;
 }
 
 .overlay-position {
