@@ -19,33 +19,6 @@
 	<script src="https://use.fontawesome.com/d11bbf05c5.js"></script>
 
 
-	<script>
-		function openPopup() {
-			document.getElementById("services-popup").style.display = "block";
-		}
-
-		function closePopup() {
-			document.getElementById("services-popup").style.display = "none";
-		}
-
-		function openthePopup() {
-			document.getElementById("services-popup-web").style.display = "block";
-		}
-
-		function closethePopup() {
-			document.getElementById("services-popup-web").style.display = "none";
-		}
-
-		function openelPopup() {
-			document.getElementById("services-popup-digital").style.display = "block";
-		}
-
-		function closeelPopup() {
-			document.getElementById("services-popup-digital").style.display = "none";
-		}
-
-	</script>
-
 
 
 
@@ -160,74 +133,82 @@
 
 
 
-		<div class="our-services-page>
+<div class="our-services-page">
 		
-		<h1 class="services-header">Our Services</h1>
+	<h1 class="services-header">Our Services</h1>
 
-<div class="services">
+	<div class="services">
 	
 
-	<div class="app">
+		<div class="app-web-digital">
 			
 			<div class="popup-window" id="services-popup">
-				<a href="javascript:void(0)" class="close" onclick="closePopup()">&times;</a>
+				
+				<div class="close-link">
+					<a href="javascript:void(0)" class="close" onclick="closePopup()">&times;</a>
+				</div>
+				
 				<div class="popup-window-content">
-					<img src="file:///Users/Dada/Desktop/mobile.svg">
-					<h2 style="line-height: 70%">App<br></br>Development</h2>
-					<p style="line-height: 100%"><span style="font-weight: bold">Mobile apps for both iOS and Android.</span><br></br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<img src="assets/img/mobile.svg">
+					<h2>App<br></br>Development</h2>
+					<p><span>Mobile apps for both iOS and Android.</span><br></br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 				</div>
 			</div>
 
-		<div class="popup" onclick="openPopup()">
-			<img src="file:///Users/Dada/Desktop/mobile.svg"></div>
+			<div class="popup" onclick="openPopup()">
+				<img src="assets/img/mobile.svg">
+			</div>
 
-		<p id="p">App Development</p>
+			<p class="services-titles">App Development</p>
 
-	</div>
+		</div>
 
 
-	<div class="web">
+		<div class="app-web-digital">
 
-		<div class="popup-window" id="services-popup-web">
+			<div class="popup-window" id="services-popup-web">
 				<a href="javascript:void(0)" class="close" onclick="closethePopup()">&times;</a>
 				<div class="popup-window-content">
-					<img src="file:///Users/Dada/Desktop/web.svg">
-					<h2 style="line-height: 70%">Web<br></br>Development</h2>
-					<p style="line-height: 100%"><span style="font-weight: bold">Web apps and websites for every browser.</span><br></br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<img src="assets/img/web.svg">
+					<h2>Web<br></br>Development</h2>
+					<p><span>Web apps and websites for every browser.</span><br></br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 				</div>
 			</div>
 
-		<div class="popup" onclick="openthePopup()">
-			<img src="file:///Users/Dada/Desktop/web.svg"></div>
+			<div class="popup" onclick="openthePopup()">
+				<img src="assets/img/web.svg">
+			</div>
 
-		<p id="p">Web Development</p>
+			<p class="services-titles">Web Development</p>
 
-	</div>
+		</div>
 
 
-	<div class="digital">
+		<div class="digital">
 
-		<div class="popup-window" id="services-popup-digital">
+			<div class="popup-window" id="services-popup-digital">
 				<a href="javascript:void(0)" class="close" onclick="closeelPopup()">&times;</a>
 				<div class="popup-window-content">
-					<img src="file:///Users/Dada/Desktop/marketing.svg">
-					<h2 style="line-height: 70%">Digital<br></br>Marketing</h2>
-					<p style="line-height: 100%"><span style="font-weight: bold">Digital Marketing is Big at Jumbo Code.</span><br></br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<img src="assets/img/marketing.svg">
+					<h2>Digital<br></br>Marketing</h2>
+					<p><span>Digital Marketing is Big at Jumbo Code.</span><br></br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 				</div>
 			</div>
 
-		<div class="popup" onclick="openelPopup()">
-			<img src="file:///Users/Dada/Desktop/marketing.svg"></div>
+			<div class="popup" onclick="openelPopup()">
+				<img src="assets/img/marketing.svg">
+			</div>
 
-		<p id="p">Digital Marketing</p>
+			<p class="services-titles">Digital Marketing</p>
+
+		</div>
+
 
 	</div>
 
 
 </div>
+</div>
 
-
-		</div>
-	</div>
 </body>
 </html>
