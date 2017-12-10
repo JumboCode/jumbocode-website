@@ -15,6 +15,7 @@ ul {
 	font-size: 1.5rem;
 	justify-content: flex-start;
 	margin: 2.5rem 5rem;
+	color: white;
 }
 
 .col h1 {
@@ -140,6 +141,7 @@ input[type=submit]{
 
 input[type=submit]:hover {
 	color: white;
+
 }
 
 textarea {
@@ -218,7 +220,9 @@ textarea::placeholder {
 	position: absolute;
 	width: 20rem;
 	z-index: 1;
-	color: #FF00FF;
+	text-decoration: none;
+	color: white;
+	
 }
 
 .overlay-text {
@@ -227,15 +231,24 @@ textarea::placeholder {
 	margin-top: 15%;
 	margin-left: 15%;
 	width: 14rem;
-	color: #FF00FF
+	color: white;
+	text-decoration: none;
 	
 }
 
 .overlay-text h1{
 	word-wrap: break-word;
-	color: #FF00FF;
-	
+	color: white;
+	text-decoration: none;
 }
+
+.overlay-text a: link{
+	color: white;
+	text-decoration: none;
+	background-color: white;
+}
+
+
 
 .overlay-name {
 	color: white;
@@ -244,17 +257,22 @@ textarea::placeholder {
 	font-size: 2.25rem;
 	margin-top: 10%;
 	width: 15rem;
-
+	
 }
 
-.overlay-name a:hover {
-	color: #FF00FF;
+.overlay-name a: link, a: visited, a: hover, a: active {
+	color: white;
+	text-decoration: none;
 }
+
+
+
 
 .overlay-position {
 	font-size: 1.6rem;
 	font-style: italic;
 	margin-top: 0;	
+	color: white;
 }
 
 .page-content {
@@ -273,6 +291,7 @@ textarea::placeholder {
 
 .seafoam {
     color: #64DDBB;
+
 }
 
 .section-header {
@@ -340,6 +359,7 @@ textarea::placeholder {
 .information {
 	display: flex;
 	justify-content: flex-start;
+	
 }
 
 .information h1 {
@@ -357,4 +377,6 @@ textarea::placeholder {
 	flex-direction: row;
 	margin-top: 175px;
 }
+
+
 
