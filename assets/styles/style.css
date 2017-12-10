@@ -189,6 +189,7 @@ textarea::placeholder {
 .nav-links {
 	align-items: center;
     display: flex;
+    color: white;
 }
 
 .nav-links li a {
@@ -217,6 +218,7 @@ textarea::placeholder {
 	position: absolute;
 	width: 20rem;
 	z-index: 1;
+	color: #FF00FF;
 }
 
 .overlay-text {
@@ -225,10 +227,14 @@ textarea::placeholder {
 	margin-top: 15%;
 	margin-left: 15%;
 	width: 14rem;
+	color: #FF00FF
+	
 }
 
 .overlay-text h1{
 	word-wrap: break-word;
+	color: #FF00FF;
+	
 }
 
 .overlay-name {
@@ -238,10 +244,11 @@ textarea::placeholder {
 	font-size: 2.25rem;
 	margin-top: 10%;
 	width: 15rem;
+
 }
 
 .overlay-name a:hover {
-	color: #64DDBB;
+	color: #FF00FF;
 }
 
 .overlay-position {
