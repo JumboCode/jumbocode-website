@@ -1,8 +1,8 @@
 body {
 	background-color: #2D2D2D;
 	color: white;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 2.5rem 5rem;
+	font-family: 'Helvetica Neue', sans-serif;
+    margin: 2.5rem 5rem;
 }
 
 ul {
@@ -15,11 +15,9 @@ ul {
 	font-size: 1.5rem;
 	justify-content: flex-start;
 	margin: 2.5rem 5rem;
+	color: white;
 }
 
-.closebtn {
-	display: none;
-}
 .col h1 {
 	font-size: 3rem;
 }
@@ -103,7 +101,6 @@ ul {
 	margin-bottom: 45rem;
 }
 
-
 .home-nav {
 	background-color: transparent !important;
 }
@@ -144,6 +141,7 @@ input[type=submit]{
 
 input[type=submit]:hover {
 	color: white;
+
 }
 
 textarea {
@@ -188,15 +186,12 @@ textarea::placeholder {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 2;
 }
 
-.navigation i {
-	display: none;
-}
 .nav-links {
 	align-items: center;
     display: flex;
+    color: white;
 }
 
 .nav-links li a {
@@ -225,6 +220,9 @@ textarea::placeholder {
 	position: absolute;
 	width: 20rem;
 	z-index: 1;
+	text-decoration: none;
+	color: white;
+	
 }
 
 .overlay-text {
@@ -233,22 +231,48 @@ textarea::placeholder {
 	margin-top: 15%;
 	margin-left: 15%;
 	width: 14rem;
+	color: white;
+	text-decoration: none;
+	
 }
 
 .overlay-text h1{
 	word-wrap: break-word;
+	color: white;
+	text-decoration: none;
 }
 
+.overlay-text a: link{
+	color: white;
+	text-decoration: none;
+	background-color: white;
+}
+
+
+
 .overlay-name {
+	color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration: none;
 	font-size: 2.25rem;
 	margin-top: 10%;
 	width: 15rem;
+	
 }
+
+.overlay-name a: link, a: visited, a: hover, a: active {
+	color: white;
+	text-decoration: none;
+}
+
+
+
 
 .overlay-position {
 	font-size: 1.6rem;
 	font-style: italic;
 	margin-top: 0;	
+	color: white;
 }
 
 .page-content {
@@ -267,6 +291,7 @@ textarea::placeholder {
 
 .seafoam {
     color: #64DDBB;
+
 }
 
 .section-header {
@@ -312,94 +337,46 @@ textarea::placeholder {
 	justify-content: center;
 }
 
-@media (max-width: 500px) {
-	.overview h1 {
-		width: 35rem;
-		font-size: 4rem;
-    	line-height: 5rem;
-	}
-	
-	.flex-grid {
-		/*border: 1px solid red;*/
-		width: 35rem;
-		flex-direction: column;
-	}
-
-	.explain-t-left h1{
-		/*border: 1px solid red;*/
-		font-size: 2.75rem;
-		margin-bottom: 0;
-	}
-
-	.explain-p {
-		margin-top: 0rem;
-		width: 35rem;
-		font-size: 1.5rem;
-	}
-
-
-	.quote-right {
-		padding-top: 1.5rem;
-		border-left: none;
-		border-right: none;
-		border-top: 8px #64DDBB solid;
-		width: 35rem;
-		padding-left: 0;
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	.explain-t-right {
-		padding-top: 1.5rem;
-		padding-bottom: 1.25rem;
-		/*border: 1px solid red;*/
-
-	}
-
-	.explain-t-right h1 {
-		padding: 0;
-		margin: 0;
-		margin-left: -3rem;
-		padding-left: -1rem;
-		font-size: 2.75rem;
-	}
-	.quote-left {
-		border-top: 8px #64DDBB solid;
-		border-right: none;
-	}
-	#bottom-bio {
-		flex-direction: column-reverse;
-	}
-
-	.section-header {
-		width: 35rem;
-		font-size: 3rem;
-	}
-	.container {
-		justify-content: space-between;
-		width: 35rem;
-	}
-
-	.card {
-		padding: 0rem 0rem 3rem 0rem;
-	}
-	.square, .overlay {
-		width: 16rem;
-		height: 16rem;
-	}
-
-	.navigation {
-		width: 35rem;
-	}
-	.navigation i {
-		float: right;
-		margin-right: 4rem;
-		font-size: 5rem;
-		display: block;
-	}
-
-	.nav-links {
-		display: none;
-	}
-
+.organization {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 2rem;
+	margin: 0px;
 }
+
+.organization h1 {
+	margin: 4px;
+}
+
+.client-info {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	flex-basis: 60%;
+	align-self: flex-start;
+}
+
+.information {
+	display: flex;
+	justify-content: flex-start;
+	
+}
+
+.information h1 {
+	font-size: 1rem;
+}
+
+.screenshot {
+	display: flex;
+	justify-content: flex-start;
+	flex-basis: 30%;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	margin-top: 175px;
+}
+
+
+
