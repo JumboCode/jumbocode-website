@@ -114,6 +114,8 @@ ul {
 	font-weight: bold;
 	margin-top: 1rem;
 	margin-bottom: 6rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 
 input {
