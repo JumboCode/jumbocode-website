@@ -21,3 +21,28 @@ $(document).ready(function() {
 	});
 	
 });
+
+
+function openPopup() {
+	document.getElementById("services-popup").style.display = "block";
+}
+
+function closePopup() {
+	document.getElementById("services-popup").style.display = "none";
+}
+
+function openthePopup() {
+	document.getElementById("services-popup-web").style.display = "block";
+}
+
+function closethePopup() {
+	document.getElementById("services-popup-web").style.display = "none";
+}
+
+function openelPopup() {
+	document.getElementById("services-popup-digital").style.display = "block";
+}
+
+function closeelPopup() {
+	document.getElementById("services-popup-digital").style.display = "none";
+}

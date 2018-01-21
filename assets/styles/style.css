@@ -20,6 +20,7 @@ ul {
 .closebtn {
 	display: none;
 }
+
 .col h1 {
 	font-size: 3rem;
 }
@@ -195,6 +196,7 @@ textarea::placeholder {
 .navigation i {
 	display: none;
 }
+
 .nav-links {
 	align-items: center;
 	display: flex;
@@ -320,11 +322,11 @@ textarea::placeholder {
 		line-height: 5rem;
 	}
 	
-	.flex-grid {
-		/*border: 1px solid red;*/
-		width: 35rem;
-		flex-direction: column;
-	}
+.flex-grid {
+	/*border: 1px solid red;*/
+	width: 35rem;
+	flex-direction: column;
+}
 
 	.explain-t-left h1{
 		/*border: 1px solid red;*/
@@ -354,7 +356,6 @@ textarea::placeholder {
 		padding-top: 1.5rem;
 		padding-bottom: 1.25rem;
 		/*border: 1px solid red;*/
-
 	}
 
 	.explain-t-right h1 {
@@ -364,10 +365,12 @@ textarea::placeholder {
 		padding-left: -1rem;
 		font-size: 2.75rem;
 	}
+
 	.quote-left {
 		border-top: 8px #64DDBB solid;
 		border-right: none;
 	}
+
 	#bottom-bio {
 		flex-direction: column-reverse;
 	}
@@ -376,6 +379,7 @@ textarea::placeholder {
 		width: 35rem;
 		font-size: 3rem;
 	}
+
 	.container {
 		justify-content: space-between;
 		width: 35rem;
@@ -384,6 +388,7 @@ textarea::placeholder {
 	.card {
 		padding: 0rem 0rem 3rem 0rem;
 	}
+
 	.square, .overlay {
 		width: 16rem;
 		height: 16rem;
@@ -392,6 +397,7 @@ textarea::placeholder {
 	.navigation {
 		width: 35rem;
 	}
+
 	.navigation i {
 		float: right;
 		margin-right: 4rem;
@@ -402,5 +408,131 @@ textarea::placeholder {
 	.nav-links {
 		display: none;
 	}
+}
 
+/* Our services page! */
+
+.our-services-page {
+	display: block;
+}
+
+.services-header {
+	font-size: 4em;
+}
+
+.services {
+	display: inline-flex;
+	justify-content: center;
+	margin: 0 auto;
+	color: #2D2D2D;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.services img {
+	width: 150px;
+	opacity: 0.7;
+	padding: 20px;
+	height: 150px;
+}
+
+.popup-window {
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background-color: #64DDBB;
+	color: #2D2D2D;
+}
+
+.popup-window-content {
+	position: relative;
+	width: 100%;
+}
+
+.popup-window-content img {
+	opacity: 0.2;
+	position: absolute;
+	width: 30%;
+	height: 70%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.popup-window-content h2 {
+	font-size: 70px;
+	margin-left: 190px;
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+	padding-top: 90px;
+	padding-left: 35px;
+	line-height: 70%
+}
+
+.popup-window-content p {
+	font-size: 20px;
+	margin-left: 125px;
+	line-height: 100%;
+}
+
+.popup-window-content span {
+	font-weight: bold;
+}
+
+.popup-window .close {
+	position: absolute;
+	right: 45px;
+	font-size: 100px;
+	text-decoration: none;
+}
+
+.popup-window a {
+	position: relative;
+}
+
+.popup-window a:active {
+	color: #2D2D2D;
+}
+
+.popup-window a:visited {
+	color: #2D2D2D;
+}
+
+.popup-window a:link {
+	color: #2D2D2D;
+}
+
+.popup {
+	border-radius: 70%;
+	width: 190px;
+	height: 190px;
+	background-color: #64DDBB;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.digital .popup {
+	padding-left: 25px;
+	padding-right: 0;
+}
+
+.services-titles {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.app-web-digital {
+	margin-left: 100px;
+}
+
+.digital {
+	margin-left: 100px;
 }
