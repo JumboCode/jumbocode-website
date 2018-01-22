@@ -2,7 +2,7 @@ body {
 	background-color: #2D2D2D;
 	color: white;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 2.5rem 5rem;
+	margin: 2.5rem 5rem;
 }
 
 ul {
@@ -27,13 +27,13 @@ ul {
 
 .contact-button {
 	align-items: center;
-    align-self: center;
-    background-color: #64DDBB;
+	align-self: center;
+	background-color: #64DDBB;
 	display: flex;
 	height: 90px;
-    justify-content: center;
-    margin: 2rem;
-    width: 290px;
+	justify-content: center;
+	margin: 2rem;
+	width: 290px;
 }
 
 .contact-button a:link, .contact-button a:visited {
@@ -66,10 +66,10 @@ ul {
 }
 
 .description {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.25rem;
-    width: 70%;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.25rem;
+	width: 70%;
 }
 
 .explain-t-left {
@@ -100,8 +100,8 @@ ul {
 }
 
 .header {
-	margin-top: 10rem;
-	margin-bottom: 45rem;
+	margin-top: 7rem;
+	margin-bottom: 20rem;
 }
 
 .home-nav {
@@ -113,8 +113,10 @@ ul {
 	flex-direction: column;
 	font-size: 2.25rem;
 	font-weight: bold;
-	margin-top: 20rem;
-	margin-bottom: 20rem;
+	margin-top: 1rem;
+	margin-bottom: 6rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 
 input {
@@ -134,12 +136,12 @@ input::placeholder {
 
 input[type=submit]{
 	align-items: center;
-    align-self: center;
-    background-color: #64DDBB;
+	align-self: center;
+	background-color: #64DDBB;
 	display: flex;
-    justify-content: center;
-    width: 200px;
-    color: #2D2D2D;
+	justify-content: center;
+	width: 200px;
+	color: #2D2D2D;
 }
 
 input[type=submit]:hover {
@@ -162,14 +164,14 @@ textarea::placeholder {
 }
 
 .join-overview {
-    background-image: url("../img/code.png");
-    background-repeat: no-repeat;
-    background-position: right; 
+	background-image: url("../img/code.png");
+	background-repeat: no-repeat;
+	background-position: right; 
 }
 
 .logo img {
-    height: 75px;
-    width: 70px;
+	height: 75px;
+	width: 70px;
 }
 
 .mission {
@@ -180,15 +182,15 @@ textarea::placeholder {
 
 .navigation {
 	background-color: #2D2D2D;
-    display: flex;
-    justify-content: space-between;
-    left: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	left: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 2;
 }
 
 .navigation i {
@@ -197,16 +199,16 @@ textarea::placeholder {
 
 .nav-links {
 	align-items: center;
-    display: flex;
+	display: flex;
 }
 
 .nav-links li a {
 	color: white;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-left: 3.5rem;
-    text-decoration: none;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-left: 3.5rem;
+	text-decoration: none;
 }
 
 .nav-links a:hover {
@@ -215,7 +217,7 @@ textarea::placeholder {
 
 .overview h1 {
 	font-size: 5.5rem;
-    line-height: 6rem;
+	line-height: 6rem;
 }
 
 .overlay {
@@ -267,14 +269,14 @@ textarea::placeholder {
 }
 
 .seafoam {
-    color: #64DDBB;
+	color: #64DDBB;
 }
 
 .section-header {
 	font-size: 4em;
 }
 
-.sticky_bottom {
+.sticky-bottom {
 	bottom: 0;
 	left: 0;
 	position: -webkit-sticky;
@@ -282,14 +284,14 @@ textarea::placeholder {
 }
 
 .social-media {
-    display: flex;
-    justify-content: space-between;
-    width: 6rem;
+	display: flex;
+	justify-content: space-between;
+	width: 6rem;
 }
 
 .social-media img {
 	height: 25px;
-    width: 25px; 
+	width: 25px; 
 }
 
 .square {
@@ -317,7 +319,7 @@ textarea::placeholder {
 	.overview h1 {
 		width: 35rem;
 		font-size: 4rem;
-    	line-height: 5rem;
+		line-height: 5rem;
 	}
 	
 .flex-grid {
