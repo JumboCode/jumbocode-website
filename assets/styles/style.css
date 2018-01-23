@@ -17,9 +17,14 @@ ul {
 	margin: 2.5rem 5rem;
 }
 
+.client {
+	margin-bottom: 4rem;
+}
+
 .closebtn {
 	display: none;
 }
+
 .col h1 {
 	font-size: 3rem;
 }
@@ -214,6 +219,10 @@ textarea::placeholder {
 	color: #64DDBB;
 }
 
+.organization {
+	margin-left: 8rem;
+}
+
 .overview h1 {
 	font-size: 5.5rem;
 	line-height: 6rem;
@@ -255,6 +264,14 @@ textarea::placeholder {
 
 .page-content {
 	flex-basis: 40%;
+}
+
+.proj-container {
+	flex-basis: 50%;
+}
+
+.proj-container p {
+	font-size: 1.25rem;
 }
 
 .quote-right {
