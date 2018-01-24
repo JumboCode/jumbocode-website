@@ -339,36 +339,39 @@ textarea::placeholder {
 
 @media (max-width: 500px) {
 	.overview h1 {
-		width: 35rem;
+		width: 30rem;
 		font-size: 4rem;
 		line-height: 5rem;
 	}
 	
+	body {
+		margin: 0 5rem 2.5rem 5rem;
+	}
 	.flex-grid {
-		/*border: 1px solid red;*/
-		width: 35rem;
+		width: 30rem;
 		flex-direction: column;
 	}
 
+	.flex-grid col {
+		width: 30rem;
+	}
 	.explain-t-left h1{
-		/*border: 1px solid red;*/
 		font-size: 2.75rem;
 		margin-bottom: 0;
 	}
 
 	.explain-p {
 		margin-top: 0rem;
-		width: 35rem;
+		width: 30rem;
 		font-size: 1.5rem;
 	}
-
 
 	.quote-right {
 		padding-top: 1.5rem;
 		border-left: none;
 		border-right: none;
 		border-top: 8px #64DDBB solid;
-		width: 35rem;
+		width: 30rem;
 		padding-left: 0;
 		margin-left: 0;
 		margin-right: 0;
@@ -377,8 +380,6 @@ textarea::placeholder {
 	.explain-t-right {
 		padding-top: 1.5rem;
 		padding-bottom: 1.25rem;
-		/*border: 1px solid red;*/
-
 	}
 
 	.explain-t-right h1 {
@@ -413,18 +414,57 @@ textarea::placeholder {
 		height: 16rem;
 	}
 
+	.nav-top {
+ 		display: flex;
+ 		background-color: #2D2D2D;
+ 		width: 35rem;
+ 		height: 100%;
+ 		/*width: 100%;*/
+ 	}
+
 	.navigation {
-		width: 35rem;
-	}
+		padding-top: 3rem;
+ 		display: block;
+ 		height: 100px;
+ 		width: 35rem;
+ 		background-color: #2D2D2D;
+ 	}
+
 	.navigation i {
-		float: right;
-		margin-right: 4rem;
-		font-size: 5rem;
-		display: block;
+
+ 		display: block;
+ 		font-size: 5rem;
+ 		padding-left: 20rem;
+ 		width: 100px;
 	}
+
+	.links {
+ 		margin-top: -152vh;
+ 		height: 20vh;
+ 	}
 
 	.nav-links {
 		display: none;
 	}
+
+	.open-nav {
+		z-index: 1;
+		height: 167vh;
+	}
+
+	.open-nav .logo {
+ 		visibility: hidden;
+ 	}
+
+
+ 	.open-nav .nav-links {
+ 		display: block;
+ 	}
+
+ 	.open-nav .nav-links a {
+ 		display: inline-block;
+ 		padding: 0;
+ 		font-size: 4.5rem;
+ 	}
 
 }
