@@ -77,6 +77,19 @@ ul {
 	width: 70%;
 }
 
+.desk-container {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.desk-container p {
+	font-size: 1.25rem;
+}
+
+.desk-project {
+	align-items: center;
+}
+
 .explain-t-left {
 	padding-right: 3rem;
 }
@@ -222,7 +235,7 @@ textarea::placeholder {
 
 .organization {
 	margin-left: 5rem;
-	margin-bottom: 25rem;
+	margin-bottom: 5rem;
 }
 
 .overview h1 {
