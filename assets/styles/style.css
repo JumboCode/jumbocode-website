@@ -220,7 +220,8 @@ textarea::placeholder {
 }
 
 .organization {
-	margin-left: 8rem;
+	margin-left: 5rem;
+	margin-bottom: 25rem;
 }
 
 .overview h1 {
@@ -268,10 +269,15 @@ textarea::placeholder {
 
 .proj-container {
 	flex-basis: 50%;
+	margin-left: 8rem;
 }
 
 .proj-container p {
 	font-size: 1.25rem;
+}
+
+.project {
+	justify-content: left;
 }
 
 .quote-right {
