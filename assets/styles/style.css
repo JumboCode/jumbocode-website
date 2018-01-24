@@ -56,7 +56,8 @@ ul {
 
 .contact-info {
 	font-size: 1.25rem;
-	margin-bottom: 3rem
+	margin-bottom: 3rem;
+	line-height: 1rem;
 }
 
 .container {
