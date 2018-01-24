@@ -216,6 +216,11 @@ textarea::placeholder {
 
 .overview h1 {
 	font-size: 5.5rem;
+	line-height: 6rem;
+}
+
+.overview-project h1 {
+    font-size: 5.5rem;
 	line-height: 3rem;
 }
 
