@@ -57,7 +57,7 @@ ul {
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: left;
 }
 
 .card {
@@ -216,7 +216,7 @@ textarea::placeholder {
 
 .overview h1 {
 	font-size: 5.5rem;
-	line-height: 6rem;
+	line-height: 3rem;
 }
 
 .overlay {
@@ -232,8 +232,8 @@ textarea::placeholder {
 .overlay-text {
 	border: 1px transparent solid;
 	height: 14rem;
-	margin-top: 15%;
-	margin-left: 15%;
+	margin-top: 5%;
+	margin-left: 10%;
 	width: 14rem;
 }
 
