@@ -17,9 +17,14 @@ ul {
 	margin: 2.5rem 5rem;
 }
 
+.client {
+	margin-bottom: 4rem;
+}
+
 .closebtn {
 	display: none;
 }
+
 .col h1 {
 	font-size: 3rem;
 	padding-right: 4%;
@@ -52,7 +57,8 @@ ul {
 
 .contact-info {
 	font-size: 1.25rem;
-	margin-bottom: 3rem
+	margin-bottom: 3rem;
+	line-height: 1rem;
 }
 
 .container {
@@ -75,6 +81,19 @@ ul {
 	font-size: 1.25rem;
 	padding-bottom: 3rem;
 	width: 70%;
+}
+
+.desk-container {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.desk-container p {
+	font-size: 1.25rem;
+}
+
+.desk-project {
+	align-items: center;
 }
 
 .explain-t-left {
@@ -227,9 +246,19 @@ textarea::placeholder {
 	color: #64DDBB;
 }
 
+.organization {
+	margin-left: 5rem;
+	margin-bottom: 5rem;
+}
+
 .overview h1 {
 	font-size: 5.5rem;
 	line-height: 6rem;
+}
+
+.overview-project h1 {
+    font-size: 5.5rem;
+	line-height: 3rem;
 }
 
 .overlay {
@@ -247,7 +276,6 @@ textarea::placeholder {
 	height: 14rem;
 	margin-top: 0%;
 	margin-left: 8%;
-	/* Changed margins */
 	width: 14rem;
 }
 
@@ -269,6 +297,19 @@ textarea::placeholder {
 
 .page-content {
 	flex-basis: 40%;
+}
+
+.proj-container {
+	flex-basis: 55%;
+	margin-left: 8rem;
+}
+
+.proj-container p {
+	font-size: 1.25rem;
+}
+
+.project {
+	justify-content: left;
 }
 
 .quote-right {
