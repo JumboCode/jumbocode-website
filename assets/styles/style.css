@@ -22,6 +22,7 @@ ul {
 }
 .col h1 {
 	font-size: 3rem;
+	padding-right: 4%;
 }
 
 .contact-button {
@@ -62,7 +63,10 @@ ul {
 }
 
 .card {
-	padding: 1rem;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1rem;
+	padding-left: 0rem;
 }
 
 .description {
@@ -74,21 +78,24 @@ ul {
 }
 
 .explain-t-left {
-	/*
-	padding-right: 3rem;
-	text-align: right;
-	*/
-	padding-left: 8rem;
+	padding-left: 1rem;
 }
 
 .explain-t-right {
-	padding-left: 3rem;
+	padding-left: 4%;
+	padding-right: 1rem;
 }
 
-.explain-p {
+.explain-p-top {
 	font-size: 1.25em;
 	padding-top: 1.5%;
-	width: 75%;
+	width: 95%;
+}
+
+.explain-p-bottom {
+	font-size: 1.25em;
+	padding-top: 1.5%;
+	width: 150%;
 }
 
 .exec-board {
@@ -227,11 +234,11 @@ textarea::placeholder {
 
 .overlay {
 	background-color: #64DDBB;
-	height: 20rem;
+	height: 24rem;
 	margin-top: 0;
 	opacity: 0;
 	position: absolute;
-	width: 20rem;
+	width: 24rem;
 	z-index: 1;
 }
 
@@ -266,12 +273,12 @@ textarea::placeholder {
 
 .quote-right {
 	border-left: 8px #64DDBB solid;
-	padding-left: 4%;
+	padding-left: 5%;
 }
 
 .quote-left {
 	border-right: 8px #64DDBB solid;
-	padding-right: 4%;
+	padding-right: 5%;
 }
 
 .seafoam {
@@ -301,7 +308,7 @@ textarea::placeholder {
 }
 
 .square {
-	width: 20rem;
+	width: 24rem;
 }
 
 .ss-q-title {
