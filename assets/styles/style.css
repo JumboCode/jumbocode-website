@@ -57,7 +57,7 @@ ul {
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: left;
+	justify-content: center;
 }
 
 .card {
@@ -300,6 +300,7 @@ textarea::placeholder {
 
 .square {
 	width: 20rem;
+    height: 20rem;
 }
 
 .ss-q-title {
