@@ -27,6 +27,7 @@ ul {
 
 .col h1 {
 	font-size: 3rem;
+	padding-right: 4%;
 }
 
 .contact-button {
@@ -63,17 +64,22 @@ ul {
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	/* Left alignment of exec board */
+	justify-content: flex-start;
 }
 
 .card {
-	padding: 2rem;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1rem;
+	padding-left: 0rem;
 }
 
 .description {
 	display: flex;
 	flex-direction: column;
 	font-size: 1.25rem;
+	padding-bottom: 3rem;
 	width: 70%;
 }
 
@@ -91,17 +97,24 @@ ul {
 }
 
 .explain-t-left {
-	padding-right: 3rem;
+	padding-left: 1rem;
 }
 
 .explain-t-right {
-	padding-left: 3rem;
+	padding-left: 4%;
+	padding-right: 1rem;
 }
 
-.explain-p {
+.explain-p-top {
 	font-size: 1.25em;
-	padding-top: 2%;
-	width: 75%;
+	padding-top: 1.5%;
+	width: 95%;
+}
+
+.explain-p-bottom {
+	font-size: 1.25em;
+	padding-top: 1.5%;
+	width: 150%;
 }
 
 .exec-board {
@@ -250,19 +263,19 @@ textarea::placeholder {
 
 .overlay {
 	background-color: #64DDBB;
-	height: 20rem;
+	height: 24rem;
 	margin-top: 0;
 	opacity: 0;
 	position: absolute;
-	width: 20rem;
+	width: 24rem;
 	z-index: 1;
 }
 
 .overlay-text {
 	border: 1px transparent solid;
 	height: 14rem;
-	margin-top: 5%;
-	margin-left: 10%;
+	margin-top: 0%;
+	margin-left: 8%;
 	width: 14rem;
 }
 
@@ -301,12 +314,12 @@ textarea::placeholder {
 
 .quote-right {
 	border-left: 8px #64DDBB solid;
-	padding-left: 4%;
+	padding-left: 5%;
 }
 
 .quote-left {
 	border-right: 8px #64DDBB solid;
-	padding-right: 4%;
+	padding-right: 5%;
 }
 
 .seafoam {
@@ -336,8 +349,7 @@ textarea::placeholder {
 }
 
 .square {
-	width: 20rem;
-    height: 20rem;
+	width: 24rem;
 }
 
 .ss-q-title {
@@ -372,6 +384,7 @@ textarea::placeholder {
 
 	.explain-t-left h1{
 		/*border: 1px solid red;*/
+		padding-right: 1rem;
 		font-size: 2.75rem;
 		margin-bottom: 0;
 	}
@@ -426,7 +439,7 @@ textarea::placeholder {
 	}
 
 	.card {
-		padding: 0rem 0rem 3rem 0rem;
+		padding: 0rem 0rem 0rem 0rem;
 	}
 	.square, .overlay {
 		width: 16rem;
