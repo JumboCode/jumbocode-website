@@ -2,7 +2,7 @@ body {
 	background-color: #2D2D2D;
 	color: white;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 2.5rem 5rem;
+	margin: 2.5rem 5rem;
 }
 
 ul {
@@ -17,6 +17,10 @@ ul {
 	margin: 2.5rem 5rem;
 }
 
+.client {
+	margin-bottom: 4rem;
+}
+
 .closebtn {
 	display: none;
 }
@@ -25,25 +29,46 @@ ul {
 	font-size: 3rem;
 }
 
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  height: 89px;
+  width: 290px;
+  background: #64DDBB;
+  font: inherit;
+  line-height: 1;
+  margin: 2rem;
+  padding: 1em 2em;
+  border-color: #64DDBB;
+
+}
+
 .contact-button {
-	align-items: center;
-    align-self: center;
-    background-color: #64DDBB;
 	display: flex;
-	height: 90px;
-    justify-content: center;
-    margin: 2rem;
-    width: 290px;
-}
-
-.contact-button a:link, .contact-button a:visited {
-	color: #2D2D2D;
+	justify-content: center;
+	align-items: center;
 	text-decoration: none;
-}
-
-.contact-button a:hover, .contact-button a:active {
 	color: #FFFFFF;
-	text-decoration: none;
+	font-size: 36px;
+	height: 43px;
+	width: 230px;
+}
+
+.pulse:hover, 
+.pulse:focus {
+  text-decoration: none;
+  animation: pulse 1s;
+  box-shadow: inset 0 0 0 2em #FFFFFF;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+.contact-button a:link, a:hover {
+	color: #64DDBB;
 }
 
 .contact-container {
@@ -52,7 +77,8 @@ ul {
 
 .contact-info {
 	font-size: 1.25rem;
-	margin-bottom: 3rem
+	margin-bottom: 3rem;
+	line-height: 1rem;
 }
 
 .container {
@@ -66,10 +92,23 @@ ul {
 }
 
 .description {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.25rem;
-    width: 70%;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.25rem;
+	width: 70%;
+}
+
+.desk-container {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.desk-container p {
+	font-size: 1.25rem;
+}
+
+.desk-project {
+	align-items: center;
 }
 
 .explain-t-left {
@@ -100,8 +139,8 @@ ul {
 }
 
 .header {
-	margin-top: 10rem;
-	margin-bottom: 45rem;
+	margin-top: 7rem;
+	margin-bottom: 20rem;
 }
 
 .home-nav {
@@ -113,8 +152,10 @@ ul {
 	flex-direction: column;
 	font-size: 2.25rem;
 	font-weight: bold;
-	margin-top: 20rem;
-	margin-bottom: 20rem;
+	margin-top: 1rem;
+	margin-bottom: 6rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 
 input {
@@ -134,12 +175,13 @@ input::placeholder {
 
 input[type=submit]{
 	align-items: center;
-    align-self: center;
-    background-color: #64DDBB;
+	align-self: center;
+	background-color: #64DDBB;
 	display: flex;
-    justify-content: center;
-    width: 200px;
-    color: #2D2D2D;
+	justify-content: center;
+	width: 200px;
+	color: #2D2D2D;
+	font-weight: bold;
 }
 
 input[type=submit]:hover {
@@ -162,14 +204,14 @@ textarea::placeholder {
 }
 
 .join-overview {
-    background-image: url("../img/code.png");
-    background-repeat: no-repeat;
-    background-position: right; 
+	background-image: url("../img/code.png");
+	background-repeat: no-repeat;
+	background-position: right; 
 }
 
 .logo img {
-    height: 75px;
-    width: 70px;
+	height: 75px;
+	width: 70px;
 }
 
 .mission {
@@ -180,15 +222,15 @@ textarea::placeholder {
 
 .navigation {
 	background-color: #2D2D2D;
-    display: flex;
-    justify-content: space-between;
-    left: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	left: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 2;
 }
 
 .navigation i {
@@ -197,25 +239,35 @@ textarea::placeholder {
 
 .nav-links {
 	align-items: center;
-    display: flex;
+	display: flex;
 }
 
 .nav-links li a {
 	color: white;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-left: 3.5rem;
-    text-decoration: none;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-left: 3.5rem;
+	text-decoration: none;
 }
 
 .nav-links a:hover {
 	color: #64DDBB;
 }
 
+.organization {
+	margin-left: 5rem;
+	margin-bottom: 5rem;
+}
+
 .overview h1 {
 	font-size: 5.5rem;
-    line-height: 6rem;
+	line-height: 6rem;
+}
+
+.overview-project h1 {
+    font-size: 5.5rem;
+	line-height: 3rem;
 }
 
 .overlay {
@@ -226,14 +278,16 @@ textarea::placeholder {
 	position: absolute;
 	width: 20rem;
 	z-index: 1;
+	color: white;
 }
 
 .overlay-text {
 	border: 1px transparent solid;
 	height: 14rem;
-	margin-top: 15%;
-	margin-left: 15%;
+	margin-top: 5%;
+	margin-left: 10%;
 	width: 14rem;
+	color:white;
 }
 
 .overlay-text h1{
@@ -244,7 +298,24 @@ textarea::placeholder {
 	font-size: 2.25rem;
 	margin-top: 10%;
 	width: 15rem;
+	color: white;
 }
+.overlay-name a:link, .overlay-name a:visited{
+	color: white;
+}
+
+.overlay-name a:hover, .overlay-name a:active{
+	color:white;
+}
+
+.overlay-text a:link, .overlay-text a:visited{
+	text-decoration: none;
+	color: white;
+}
+.overlay-text a: hover, .overlay-text a:active{
+	color: white;
+}
+
 
 .overlay-position {
 	font-size: 1.6rem;
@@ -254,6 +325,19 @@ textarea::placeholder {
 
 .page-content {
 	flex-basis: 40%;
+}
+
+.proj-container {
+	flex-basis: 55%;
+	margin-left: 8rem;
+}
+
+.proj-container p {
+	font-size: 1.25rem;
+}
+
+.project {
+	justify-content: left;
 }
 
 .quote-right {
@@ -267,14 +351,14 @@ textarea::placeholder {
 }
 
 .seafoam {
-    color: #64DDBB;
+	color: #64DDBB;
 }
 
 .section-header {
 	font-size: 4em;
 }
 
-.sticky_bottom {
+.sticky-bottom {
 	bottom: 0;
 	left: 0;
 	position: -webkit-sticky;
@@ -282,18 +366,19 @@ textarea::placeholder {
 }
 
 .social-media {
-    display: flex;
-    justify-content: space-between;
-    width: 6rem;
+	display: flex;
+	justify-content: space-between;
+	width: 6rem;
 }
 
 .social-media img {
 	height: 25px;
-    width: 25px; 
+	width: 25px; 
 }
 
 .square {
 	width: 20rem;
+    height: 20rem;
 }
 
 .ss-q-title {
@@ -317,7 +402,7 @@ textarea::placeholder {
 	.overview h1 {
 		width: 35rem;
 		font-size: 4rem;
-    	line-height: 5rem;
+		line-height: 5rem;
 	}
 	
 .flex-grid {
