@@ -519,77 +519,6 @@ textarea::placeholder {
 	height: 150px;
 }
 
-.popup-window {
-	height: 100%;
-	width: 100%;
-	display: none;
-	position: fixed;
-	z-index: 2;
-	top: 0;
-	left: 0;
-	background-color: #64DDBB;
-	color: #2D2D2D;
-}
-
-.popup-window-content {
-	position: relative;
-	width: 100%;
-}
-
-.popup-window-content img {
-	opacity: 0.2;
-	position: relative;
-	width: 30%;
-	height: 70%;
-	margin-right: 100px;
-	margin-top: 0px;
-	float:right;
-}
-
-.popup-window-content h2 {
-	font-size: 70px;
-	margin-left: 90px;
-	margin-bottom: 100px;
-	padding-bottom: 100px;
-	padding-top: 90px;
-	padding-left: 35px;
-	line-height: 70%
-}
-
-.popup-window-content p {
-	font-size: 20px;
-	margin-left: 125px;
-	line-height: 140%;
-	padding-right: 100px;
-}
-
-.popup-window-content span {
-	font-weight: bold;
-}
-
-.popup-window .close {
-	position: absolute;
-	right: 45px;
-	font-size: 100px;
-	text-decoration: none;
-}
-
-.popup-window a {
-	position: relative;
-}
-
-.popup-window a:active {
-	color: #2D2D2D;
-}
-
-.popup-window a:visited {
-	color: #2D2D2D;
-}
-
-.popup-window a:link {
-	color: #2D2D2D;
-}
-
 .popup {
 	border-radius: 70%;
 	width: 190px;
@@ -603,21 +532,86 @@ textarea::placeholder {
 	cursor: pointer;
 }
 
-.digital .popup {
-	padding-left: 25px;
-	padding-right: 0;
-}
-
 .services-titles {
 	font-size: 30px;
 	text-align: center;
 	color: white;
 }
 
-.app-web-digital {
-	margin-left: 100px;
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #64DDBB;
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
 }
 
-.digital {
-	margin-left: 100px;
+.modalDialog img {
+	opacity: 0.2;
+	position: relative;
+	width: 30%;
+	height: 70%;
+	margin-right: 100px;
+	margin-top: 0px;
+	float:right;
+}
+
+.modalDialog h2 {
+	font-size: 70px;
+	margin-left: 90px;
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+	padding-top: 90px;
+	padding-left: 35px;
+	line-height: 70%
+}
+
+.modalDialog p {
+	font-size: 20px;
+	margin-left: 125px;
+	line-height: 140%;
+	padding-right: 100px;
+}
+
+.modalDialog span {
+	font-weight: bold;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	background: #64DDBB;
+}
+
+.close {
+	color: black;
+	line-height: 25px;
+	position: absolute;
+	right: 3rem;
+	text-align: center;
+	top: 2rem;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+.close:hover { color: #FFFFFF; }
+
+.tile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 3rem;
+	margin-right: 3rem;
 }
