@@ -406,13 +406,11 @@ textarea::placeholder {
 	}
 	
 .flex-grid {
-	/*border: 1px solid red;*/
 	width: 35rem;
 	flex-direction: column;
 }
 
 	.explain-t-left h1{
-		/*border: 1px solid red;*/
 		font-size: 2.75rem;
 		margin-bottom: 0;
 	}
@@ -438,7 +436,6 @@ textarea::placeholder {
 	.explain-t-right {
 		padding-top: 1.5rem;
 		padding-bottom: 1.25rem;
-		/*border: 1px solid red;*/
 	}
 
 	.explain-t-right h1 {
