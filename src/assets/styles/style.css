@@ -350,10 +350,6 @@ textarea::placeholder {
 	padding-right: 4%;
 }
 
-.seafoam {
-	color: #64DDBB;
-}
-
 .section-header {
 	font-size: 4em;
 }
@@ -383,19 +379,6 @@ textarea::placeholder {
 
 .ss-q-title {
 	display: none;
-}
-
-.tagline {
-	display: flex;
-	font-size: 2rem;
-	justify-content: center;
-}
-
-.title {
-	display: flex;
-	font-weight: bold;
-	font-size: 9rem;
-	justify-content: center;
 }
 
 @media (max-width: 500px) {

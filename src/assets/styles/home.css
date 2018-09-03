@@ -1,0 +1,68 @@
+body {
+    background:
+            linear-gradient(to right, #2D2D2D 0%, rgba(0, 0, 0, 0.2) 50%, #2D2D2D 100%),
+            url("../img/computer-code.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #2D2D2D;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.mobile-only {
+    display: none
+}
+
+div.desktop-only {
+    height: 100%;
+}
+
+.tagline {
+    display: flex;
+    font-size: 4vw;
+    justify-content: center;
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    font-weight: bold;
+    font-size: 14vw;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 10px black;
+    padding: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+    div.mobile-only {
+        display: block;
+    }
+    div.desktop-only {
+        display: none;
+    }
+
+    .title {
+        font-size: 20vw;
+        line-height: 18vw;
+        flex-direction: column;
+        padding-top: 4vh;
+    }
+
+    .tagline {
+        border-top: 8px rgba(100,221,187, 0.8) solid;
+        padding-top: 2vw;
+        font-size: 6vw;
+    }
+}
+
+.seafoam {
+    color: #64DDBB;
+}
+
+.content {
+    padding: 50px;
+}
