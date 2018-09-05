@@ -70,7 +70,8 @@ div.desktop-only {
         padding-top: 4vw;
         padding-bottom: 4vw;
         font-size: 6vw;
-        border-bottom: 8px rgba(100,221,187, 0.8) solid;
+        /* If you want buttons, add this back */
+        /*border-bottom: 8px rgba(100,221,187, 0.8) solid;*/
     }
 
     .buttons {
@@ -79,11 +80,14 @@ div.desktop-only {
 }
 
 .seafoam {
-    -webkit-animation: fadeToGreen 1s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadeToGreen 1s; /* Firefox < 16 */
-    -ms-animation: fadeToGreen 1s; /* Internet Explorer */
-    -o-animation: fadeToGreen 1s; /* Opera < 12.1 */
-    animation: fadeToGreen 1s;
+
+    /* Fade animations are probably not a good idea, but here they are in case they are a good idea!*/
+
+    /*-webkit-animation: fadeToGreen 1s; !* Safari, Chrome and Opera > 12.1 *!*/
+    /*-moz-animation: fadeToGreen 1s; !* Firefox < 16 *!*/
+    /*-ms-animation: fadeToGreen 1s; !* Internet Explorer *!*/
+    /*-o-animation: fadeToGreen 1s; !* Opera < 12.1 *!*/
+    /*animation: fadeToGreen 1s;*/
 
     color: #64DDBB;
 }
