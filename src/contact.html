@@ -1,122 +1,63 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>JumboCode</title>
-		<meta charset="utf-8">
-		<meta name="description" content="JumboCode contact page">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="JumboCode, Contact, Nonprofit">
+<html lang="en">
+<head>
+	<title>JumboCode</title>
+	<meta charset="utf-8">
+	<meta name="description" content="JumboCode home page">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="JumboCode, Index, Nonprofit">
 
-		<!-- Favicon -->
-		<link rel="icon" href="assets/img/logo.png" />
+	<!-- Favicon -->
+	<link rel="icon" href="assets/img/logo.png" />
 
-		<!-- Stylesheets -->
-		<link rel="stylesheet" href="assets/styles/style.css">
-	</head>
+	<!-- Stylesheets -->
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- Custom styles for this page -->
+	<link rel="stylesheet" href="assets/styles/home.css" />
+	<style>
 
-	<body>
-		<div class="navigation">
-			<div class="logo">
-				<a href="../index.html"><img src="assets/img/logo.png" alt="JumboCode logo"></a>
-			</div>
-			<ul class="nav-links">
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="join.html">Join</a></li>
-				<li><a href="contact.html"><span class="seafoam">Contact</span></a></li>
-			</ul>
-			<i class="fa fa-bars hamburger-icon" aria-hidden="true"></i>
-		</div>
+	</style>
+</head>
 
-		<div class="contact-container">
-			<div class="page-content">
-				<div class="overview">
-					<h1>Let's</br>work</br><span class="seafoam">together</span></h1>
-				</div>
-				<div class="contact-info">
-					<p> Tufts University, Medford, MA 02155</p>
-					<p> info [at] jumbocode [dot] org</p>
-				</div>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgba(45,45,45, 0.9);">
+	<a class="navbar-brand" href="#">
+		<img src="assets/img/logo.png" width="30" height="30" alt="">
+	</a>
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="navbar-collapse collapse" id="navbarCollapse" style="">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="../index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="projects.html">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="join.html">Join</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</div>
+</nav>
 
-				<div class="social-media">
-					<a href="https://www.facebook.com/JumboCode/">
-						<img src="assets/img/facebook.svg" alt="Facebook Logo">
-					</a>
-					<a href="mailto:info@jumbocode.org">
-						<img src="assets/img/email.svg" alt="Email">
-					</a>
-				</div>
-			</div>
+<div class="content" >
+	<!-- This div is a flex hack cause I'm lazy. -->
+	<div>
 
-			<div class="form">
-				<form action="https://docs.google.com/forms/d/e/1FAIpQLScd6DJjXHWjA6bBV6Gq3d0M90F72Gkpop9OR6dH4Vw3QiSyjg/formResponse?embedded=true" method="POST" id="ss-form" target="_self" autocomplete="on" onsubmit="">
-					<ol role="list" class="ss-question-list" style="padding-left: 0;">
-						<div class="ss-form-question errorbox-good" role="listitem">
-							<div dir="auto" class="ss-item ss-item-required ss-text">
-								<div class="ss-form-entry">
-									<label class="ss-q-item-label" for="entry_2119167820">
-										<div class="ss-q-title">Name of organization
-											<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-											<span class="ss-required-asterisk" aria-hidden="true">*</span>
-										</div>
-										<div class="ss-q-help ss-secondary-text" dir="auto"></div>
-									</label>
-									<input type="text" name="entry.2119167820" value="" class="ss-q-short" id="entry_2119167820" dir="auto" aria-label="Name of Organization  " aria-required="true" required="" title="" placeholder="Name of organization">
-									<div class="error-message" id="579889536_errorMessage"></div>
-									<!-- <div class="required-message">This is a required question</div> -->
-								</div>
-							</div>
-						</div>
-						<div class="ss-form-question errorbox-good" role="listitem">
-							<div dir="auto" class="ss-item ss-item-required ss-text">
-								<div class="ss-form-entry">
-									<label class="ss-q-item-label" for="entry_1866653896">
-										<div class="ss-q-title">Email Address
-											<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-											<span class="ss-required-asterisk" aria-hidden="true">*</span>
-										</div>
-										<div class="ss-q-help ss-secondary-text" dir="auto"></div>
-									</label>
-									<input type="text" name="entry.1866653896" value="" class="ss-q-short" id="entry_1866653896" dir="auto" aria-label="Email Address  " aria-required="true" required="" title="" placeholder="Email">
-									<div class="error-message" id="1628152451_errorMessage"></div>
-									<!-- <div class="required-message">This is a required question</div> -->
-								</div>
-							</div>
-						</div>
-						<div class="ss-form-question errorbox-good" role="listitem">
-							<div dir="auto" class="ss-item  ss-paragraph-text">
-								<div class="ss-form-entry">
-									<label class="ss-q-item-label" for="entry_1727250981">
-										<div class="ss-q-title">Brief Description of Project</div>
-										<div class="ss-q-help ss-secondary-text" dir="auto"></div>
-									</label>
-									<textarea name="entry.1727250981" rows="8" cols="0" class="ss-q-long" id="entry_1727250981" dir="auto" aria-label="Brief Description of Project  " placeholder="Short description of project"></textarea>
-									<div class="error-message" id="273329282_errorMessage"></div>
-									<!-- <div class="required-message">This is a required question</div> -->
-								</div>
-							</div>
-						</div>
-						<input type="hidden" name="draftResponse" value="[null,null,&quot;3466708373602381530&quot;]">
-						<input type="hidden" name="pageHistory" value="0">
-						<input type="hidden" name="fbzx" value="3466708373602381530">
-						<div class="ss-send-email-receipt" style="margin-bottom: 4px;" dir="ltr">
-							<label for="emailReceipt" style="display:inline;"></label>
-						</div>
-						<div class="ss-item ss-navigate">
-							<table id="navigation-table">
-								<tbody>
-									<tr>
-										<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-											<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action submit-button" color= #64DDBB>
-											<!-- <div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div> -->
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</ol>
-				</form>
-			</div>
-		</div>
-	</body>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
