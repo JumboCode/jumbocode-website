@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    background:
+            linear-gradient(to right, #2D2D2D 0%, rgba(0, 0, 0, 0.2) 50%, #2D2D2D 100%),
+            url("../img/computer-code.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #2D2D2D;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.active {
+  color: #64DDBB !important;
+}
+
+div.mobile-only {
+    display: none
+}
+
+div.desktop-only {
+    height: 100%;
+}
+
+.tagline {
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+
+.tagline div {
+    flex-grow: 1;
+    width: 0;
+}
+
+.title {
+    display: flex;
+    font-weight: bold;
+    font-size: 10vw;
+    line-height: 10vw;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 10px black;
+    padding-top: 4vh;
+    padding-bottom: 2vw;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .title {
+        font-size: 20vw;
+        line-height: 18vw;
+        flex-direction: column;
+        padding-bottom: 4vh;
+    }
+
+    .tagline {
+        border-top: 8px rgba(100,221,187, 0.8) solid;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        font-size: 6vw;
+        /* If you want buttons, add this back */
+        /*border-bottom: 8px rgba(100,221,187, 0.8) solid;*/
+    }
+
+    .buttons {
+        padding-top: 4vw;
+    }
+}
+
+.seafoam {
+
+    /* Fade animations are probably not a good idea, but here they are in case they are a good idea!*/
+
+    /*-webkit-animation: fadeToGreen 1s; !* Safari, Chrome and Opera > 12.1 *!*/
+    /*-moz-animation: fadeToGreen 1s; !* Firefox < 16 *!*/
+    /*-ms-animation: fadeToGreen 1s; !* Internet Explorer *!*/
+    /*-o-animation: fadeToGreen 1s; !* Opera < 12.1 *!*/
+    /*animation: fadeToGreen 1s;*/
+
+    color: #64DDBB;
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-wrapper {
+    width: 50%;
+}
+
+@keyframes fadeToGreen {
+    0% {color: white;}
+    100% {color: #64DDBB;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeToGreen {
+    0% {color: white;}
+    100% {color: #64DDBB;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeToGreen {
+    0% {color: white;}
+    100% {color: #64DDBB;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeToGreen {
+    0% {color: white;}
+    100% {color: #64DDBB;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeToGreen {
+    from {color: red;}
+    to {color: yellow;}
+}
