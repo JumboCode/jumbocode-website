@@ -1,0 +1,236 @@
+
+/*keep*/
+.overview {
+	padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+/* keep - about */
+.exec-board {
+	margin-top: 5%;
+}
+
+/*keep*/
+.explain-t-left h1, .explain-t-right h1 {
+  font-size: 2.75rem;
+}
+
+/* keep - about */
+.explain-t-left {
+	padding-right: 3rem;
+}
+
+/* keep - about */
+.explain-t-right {
+	padding-left: 3rem;
+}
+
+
+
+
+/*keep*/
+.explain-p {
+  font-size: 1.1em;
+  margin-top: 0rem;
+  width: 35rem;
+	font-size: 1.2em;
+}
+
+/*keep*/
+.quote-right {
+	border-left: 8px #64DDBB solid;
+	padding-left: 4%;
+}
+
+/*keep*/
+.quote-left {
+	border-right: 8px #64DDBB solid;
+	padding-right: 4%;
+}
+
+
+
+
+.card-img-overlay:hover {
+  opacity: 0.7;
+}
+
+.overlay-name {
+  opacity: 1 !important;
+}
+
+
+
+#bottom-bio {
+  margin-top: 2rem;
+}
+
+
+
+
+
+/* Our services page! Within About Us */
+
+.our-services-page {
+	display: block;
+}
+
+.services-header {
+	font-size: 4em;
+}
+
+.services {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	color: #2D2D2D;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.services img {
+	width: 150px;
+	opacity: 0.7;
+	padding: 20px;
+	height: 150px;
+}
+
+.popup {
+	border-radius: 70%;
+	width: 190px;
+	height: 190px;
+	background-color: #64DDBB;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.services-titles {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #64DDBB;
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog img {
+	opacity: 0.2;
+	position: relative;
+	width: 30%;
+	height: 70%;
+	margin-right: 100px;
+	margin-top: 0px;
+	float:right;
+}
+
+.modalDialog h2 {
+	font-size: 70px;
+	margin-left: 90px;
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+	padding-top: 90px;
+	padding-left: 35px;
+	line-height: 70%
+}
+
+.modalDialog p {
+	font-size: 20px;
+	margin-left: 125px;
+	line-height: 140%;
+	padding-right: 100px;
+}
+
+.modalDialog span {
+	font-weight: bold;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	background: #64DDBB;
+}
+
+.close {
+	color: black;
+	line-height: 25px;
+	position: absolute;
+	right: 3rem;
+	text-align: center;
+	top: 2rem;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+.close:hover { color: #FFFFFF; }
+
+
+.tile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+/* width set to match bootstrap styling small break point*/
+@media (max-width: 768px) {
+
+  .explain-t-left h1{
+		font-size: 2.75rem;
+		margin-bottom: 0;
+	}
+
+	.explain-p {
+		margin-top: 0rem;
+		width: 35rem;
+		font-size: 1.5rem;
+	}
+
+  .quote-right {
+    padding-top: 1.5rem;
+    border-left: none;
+    border-right: none;
+    border-top: 8px #64DDBB solid;
+    width: 35rem;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .explain-t-right {
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .explain-t-right h1 {
+    padding: 0;
+    margin: 0;
+    margin-left: -3rem;
+    padding-left: -1rem;
+    font-size: 2.75rem;
+  }
+
+  .quote-left {
+    border-top: 8px #64DDBB solid;
+    border-right: none;
+  }

@@ -1,0 +1,12 @@
+.description {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.25rem;
+	width: 70%;
+}
+
+.join-overview {
+	background-image: url("../img/code.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}

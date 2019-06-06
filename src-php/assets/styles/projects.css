@@ -1,0 +1,27 @@
+.desk-container {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.desk-container p {
+	font-size: 1.25rem;
+}
+
+.organization {
+  margin-top: 5rem;
+}
+
+.organization {
+	margin-left: 5rem;
+	margin-bottom: 5rem;
+}
+.project-app-img {
+  height: 750px !important;
+  weight: 385px !important;
+}
+
+.overview-project h1 {
+  font-size: 5.5rem;
+	line-height: 5.5rem;
+  margin: 6rem 0 4rem 0;
+}
